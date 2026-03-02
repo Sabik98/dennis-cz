@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O mnie",
+    "events": "Wydarzenia",
+    "contact": "Kontakt",
+    "impressum": "Impressum"
+  },
+  "hero": {
+    "entrepreneur": "PRZEDSIĘBIORCA",
+    "adviser": "DORADCA",
+    "speaker": "PRELEGENT",
+    "subtitle": "ZAŁOŻYCIEL I CEO ISELLA GROUP, ZAŁOŻYCIEL MARKI BERGHAUS TINY HOUSE"
+  },
+  "mission": {
+    "title": "Pomóc Ci osiągnąć Twoje cele — to moja misja.",
+    "subtitle": "Jako jeden z wiodących ekspertów Tiny House w Niemczech i sprawdzony specjalista ds. marketingu, sprzedaży i komunikacji, pomagam Ci osiągnąć Twoje cele."
+  },
+  "intro": {
+    "title": "Poznajmy się",
+    "partnership": "Partnerstwo biznesowe",
+    "adviser": "Doradca biznesowy"
+  },
+  "partnership": {
+    "title": "Partnerstwo biznesowe",
+    "subtitle": "Kształtujmy przyszłość razem",
+    "description": "Współpracuj z Dennisem Czekallą jako inwestor lub partner biznesowy. Poznaj możliwości i zostaw wiadomość.",
+    "cta": "Zostaw wiadomość"
+  },
+  "adviser": {
+    "title": "Doradca biznesowy",
+    "subtitle": "Marketing, sprzedaż i wejście na rynek w Niemczech i Polsce",
+    "description": "Planujesz wejść na nowy rynek lub potrzebujesz wsparcia w orientacji marketingowej i sprzedażowej? Skorzystaj z doświadczenia i wiedzy sprawdzonego eksperta i odnieś sukces w Europie!",
+    "cta": "Skontaktuj się"
+  },
+  "about": {
+    "title": "O mnie",
+    "bio": "Dennis Czekalla jest przedsiębiorcą, doradcą i międzynarodowym mówcą. W 2020 roku założył Isella Group — międzynarodową agencję innowacyjnych projektów biznesowych. Poprzez Isella Group zbudował markę Berghaus od podstaw, tworząc jednego z czołowych producentów tiny house i domów modułowych w Niemczech. Dziś Berghaus prowadzi zakłady produkcyjne i obsługuje klientów w Niemczech, Polsce i poza granicami. Jako sportowiec wytrzymałościowy i triatlonista Dennis wnosi tę samą dyscyplinę i determinację do biznesu, co do sportu.",
+    "companies": "4+",
+    "companiesLabel": "Założonych firm",
+    "countries": "3",
+    "countriesLabel": "Kraje",
+    "houses": "200+",
+    "housesLabel": "Zbudowanych domów",
+    "team": "50+",
+    "teamLabel": "Członków zespołu"
+  },
+  "brands": {
+    "title": "Założyciel i CEO",
+    "berghaus": "Marka Tiny House i domów modułowych",
+    "isella": "Międzynarodowa agencja innowacyjnych projektów biznesowych",
+    "tri2thrive": "Triathlon i styl życia wytrzymałościowy",
+    "becz": "Inwestycje i doradztwo"
+  },
+  "testimonials": {
+    "title": "Co mówią inni",
+    "items": {
+      "0": {
+        "quote": "Współpraca z Dennisem to przywilej! Jest nie tylko ekspertem w tym, co robi. Gdziekolwiek się pojawi, szerzy mnóstwo pozytywnej energii i daje niesamowitą wartość!",
+        "name": "Damian Wilpert",
+        "role": "Przedsiębiorca i trener komunikacji",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "Dla mnie Dennis Czekalla jest jednym z czołowych ekspertów Tiny House w Niemczech. Przyziemny facet, który zna swój fach!",
+        "name": "Dirk Hildebrand",
+        "role": "Naukowiec, autor i CEO AudioExperten",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla to prawdziwy dar od losu dla Kuckuck. Z jego firmą Berghaus znaleźliśmy partnera, który świetnie realizuje nasze życzenia. Niezawodny, precyzyjny i szybki!",
+        "name": "Maximilian Nordmann",
+        "role": "Założyciel i CEO Kuckuck",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "Prawie nie można zrobić tego lepiej!",
+        "name": "Jury",
+        "role": "Suedwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
+  "events": {
+    "title": "Nadchodzące wydarzenia",
+    "subtitle": "Wystąpienia i prezentacje",
+    "coming_soon": "Nowe wydarzenia już wkrótce. Śledź media społecznościowe po aktualizacje."
+  },
+  "media": {
+    "title": "Media i wystąpienia",
+    "podcasts": "Podcasty",
+    "hausgemacht": "Podcast Hausgemacht",
+    "tri2thrive": "Podcast Tri2Thrive"
+  },
+  "contact": {
+    "title": "Kształtujmy przyszłość razem!",
+    "subtitle": "Skontaktuj się, aby omówić możliwości.",
+    "email_address": "hallo@dennis.cz",
+    "book": "Umów spotkanie",
+    "call": "Zadzwoń teraz"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "email": "hallo@dennis.cz",
+    "phone_pl": "+48 506 057 041",
+    "phone_de": "+49 02359/809 285 5",
+    "social": "Media społecznościowe",
+    "legal": "Informacje prawne",
+    "impressum": "Impressum",
+    "privacy": "Polityka prywatności",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "contact_info": "Dane kontaktowe",
+    "responsible_title": "Odpowiedzialny za treść",
+    "dispute_title": "Rozstrzyganie sporów",
+    "dispute_text": "Komisja Europejska udostępnia platformę do internetowego rozstrzygania sporów (ODR). Nie jesteśmy zobowiązani ani nie wyrażamy chęci uczestnictwa w postępowaniu przed komisją arbitrażową ds. konsumentów.",
+    "liability_content_title": "Odpowiedzialność za treść",
+    "liability_content_text": "Jako usługodawca jesteśmy odpowiedzialni za własne treści na tych stronach zgodnie z ogólnymi przepisami prawa. Nie jesteśmy jednak zobowiązani do monitorowania przesyłanych lub przechowywanych informacji osób trzecich ani do badania okoliczności wskazujących na działalność niezgodną z prawem.",
+    "liability_links_title": "Odpowiedzialność za linki",
+    "liability_links_text": "Nasza oferta zawiera linki do zewnętrznych stron internetowych osób trzecich, na których treść nie mamy wpływu. Dlatego nie możemy przyjąć żadnej odpowiedzialności za te treści osób trzecich. Za treść linkowanych stron odpowiada zawsze ich dostawca lub operator.",
+    "copyright_title": "Prawo autorskie",
+    "copyright_text": "Treści i dzieła utworzone przez operatorów stron na tych stronach podlegają prawu autorskiemu. Powielanie, przetwarzanie, rozpowszechnianie i jakiekolwiek wykorzystanie wykraczające poza granice prawa autorskiego wymaga pisemnej zgody odpowiedniego autora lub twórcy."
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "intro": "Ochronę Twoich danych osobowych traktujemy bardzo poważnie. Twoje dane osobowe przetwarzamy poufnie i zgodnie z obowiązującymi przepisami o ochronie danych osobowych oraz niniejszą polityką prywatności. Korzystanie z naszej strony internetowej jest z reguły możliwe bez podawania danych osobowych.",
+    "responsible_title": "Administrator danych",
+    "data_collection_title": "Zbieranie danych na naszej stronie",
+    "data_collection_text": "Przetwarzanie danych na tej stronie odbywa się przez operatora strony. Jego dane kontaktowe znajdziesz w impressum tej strony. Twoje dane są zbierane przez to, że nam je przekazujesz (np. dane w formularzu kontaktowym) lub są automatycznie zbierane przez nasze systemy informatyczne podczas wizyty na stronie.",
+    "server_logs_title": "Pliki dziennika serwera",
+    "server_logs_text": "Dostawca stron automatycznie zbiera i przechowuje informacje w tak zwanych plikach dziennika serwera, które Twoja przeglądarka automatycznie nam przekazuje. Są to: typ i wersja przeglądarki, używany system operacyjny, adres URL odsyłający, nazwa hosta komputera dostępu i czas żądania serwera.",
+    "cookies_title": "Pliki cookie",
+    "cookies_text": "Nasze strony internetowe używają plików cookie. Pliki cookie to małe pliki tekstowe przechowywane na Twoim urządzeniu przez przeglądarkę. Pliki cookie nie powodują żadnych szkód i nie zawierają wirusów. Używamy wyłącznie technicznie niezbędnych plików cookie wymaganych do prawidłowego działania strony.",
+    "contact_form_title": "Formularz kontaktowy",
+    "contact_form_text": "Jeżeli prześlesz nam zapytanie za pośrednictwem formularza kontaktowego, Twoje dane z formularza zapytania, w tym podane tam dane kontaktowe, będą u nas przechowywane w celu przetwarzania zapytania i na wypadek pytań uzupełniających.",
+    "rights_title": "Twoje prawa",
+    "rights_text": "Masz prawo w każdej chwili bezpłatnie uzyskać informacje o pochodzeniu, odbiorcy i celu przechowywanych danych osobowych. Masz również prawo żądać sprostowania lub usunięcia tych danych. Jeżeli wyraziłeś zgodę na przetwarzanie danych, możesz ją w każdej chwili odwołać na przyszłość.",
+    "third_party_title": "Usługi osób trzecich",
+    "third_party_text": "Nasza strona może korzystać z usług osób trzecich do celów analitycznych, osadzonych treści (takich jak filmy YouTube) lub integracji z mediami społecznościowymi. Usługi te mogą zbierać dane zgodnie z własnymi politykami prywatności.",
+    "changes_title": "Zmiany w polityce prywatności",
+    "changes_text": "Zastrzegamy sobie prawo do aktualizacji niniejszej polityki prywatności w celu odzwierciedlenia zmian w naszych praktykach lub z innych powodów operacyjnych, prawnych lub regulacyjnych.",
+    "last_updated": "Ostatnia aktualizacja"
+  }
+}

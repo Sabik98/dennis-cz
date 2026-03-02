@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "events": "Events",
+    "contact": "Kontakt",
+    "impressum": "Impressum"
+  },
+  "hero": {
+    "entrepreneur": "ENTREPRENEUR",
+    "adviser": "BERATER",
+    "speaker": "SPEAKER",
+    "subtitle": "GRÜNDER & CEO DER ISELLA GROUP, GRÜNDER DER MARKE BERGHAUS TINY HOUSE"
+  },
+  "mission": {
+    "title": "Dein Erfolg ist meine Mission.",
+    "subtitle": "Als einer der führenden Tiny House Experten Deutschlands und ausgewiesener Spezialist für Marketing, Vertrieb und Kommunikation helfe ich dir deine Ziele zu erreichen!"
+  },
+  "intro": {
+    "title": "Lass uns einander kennenlernen!",
+    "partnership": "Geschäftspartnerschaft",
+    "adviser": "Unternehmensberater"
+  },
+  "partnership": {
+    "title": "Geschäftspartnerschaft",
+    "subtitle": "Gemeinsam Zukunft gestalten",
+    "description": "Arbeite als Investor oder Business Partner mit Dennis Czekalla zusammen. Schaue hier welche Möglichkeiten es gibt.",
+    "cta": "Hinterlasse eine Nachricht"
+  },
+  "adviser": {
+    "title": "Unternehmensberater",
+    "subtitle": "Berater für Marketing, Vertrieb und Markteintritt in Deutschland und Polen",
+    "description": "Du benötigst Unterstützung bei deiner Marketing-, und Vertriebsausrichtung oder planst den Eintritt in einen neuen Markt? Greife auf das Wissen und die Erfahrung eines Experten zurück.",
+    "cta": "Kontakt aufnehmen"
+  },
+  "about": {
+    "title": "Über mich",
+    "bio": "Dennis Czekalla ist Unternehmer, Berater und internationaler Speaker. 2020 gründete er die Isella Group — eine internationale Agentur für innovative Geschäftsprojekte. Über die Isella Group baute er die Marke Berghaus von Grund auf auf und etablierte einen der führenden Tiny House und Modulhaus-Hersteller Deutschlands. Heute betreibt Berghaus Produktionsstätten und bedient Kunden in Deutschland, Polen und darüber hinaus. Als Ausdauersportler und Triathlet bringt Dennis die gleiche Disziplin und Entschlossenheit ins Geschäft wie in den Sport.",
+    "companies": "4+",
+    "companiesLabel": "Gegründete Unternehmen",
+    "countries": "3",
+    "countriesLabel": "Länder",
+    "houses": "200+",
+    "housesLabel": "Gebaute Häuser",
+    "team": "50+",
+    "teamLabel": "Teammitglieder"
+  },
+  "brands": {
+    "title": "Gründer & CEO",
+    "berghaus": "Tiny House & Modulhaus-Marke",
+    "isella": "Internationale Agentur für innovative Geschäftsprojekte",
+    "tri2thrive": "Triathlon & Ausdauer-Lifestyle",
+    "becz": "Investment & Beratung"
+  },
+  "testimonials": {
+    "title": "Was andere sagen",
+    "items": {
+      "0": {
+        "quote": "Die Zusammenarbeit mit Dennis ist ein Vergnügen! Er ist ein Experte auf seinem Gebiet und wo immer er auch auftaucht, bringt er viel positive Energie und generiert unglaublichen Mehrwert!",
+        "name": "Damian Wilpert",
+        "role": "Unternehmer und Kommunikationstrainer",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "Für mich ist Dennis Czekalla einer der führenden Tiny House Experten in Deutschland. Bodenständiger Typ, der sein Handwerk versteht!",
+        "name": "Dirk Hildebrand",
+        "role": "Medienwissenschaftler, Autor und Unternehmer",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla ist ein echter Glücksfall für Kuckuck. Mit seiner Firma Berghaus haben wir einen Partner gefunden, der unsere Wünsche grandios umsetzt. Zuverlässig, präzise und schnell!",
+        "name": "Maximilian Nordmann",
+        "role": "Gründer von Kuckuck.de",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "Man kann es kaum besser machen!",
+        "name": "Jury",
+        "role": "Südwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
+  "events": {
+    "title": "Kommende Events",
+    "subtitle": "Vorträge & Auftritte",
+    "coming_soon": "Neue Events kommen bald. Folge mir in den sozialen Medien für Updates."
+  },
+  "media": {
+    "title": "Medien & Auftritte",
+    "podcasts": "Podcasts",
+    "hausgemacht": "Hausgemacht Podcast",
+    "tri2thrive": "Tri2Thrive Podcast"
+  },
+  "contact": {
+    "title": "Gemeinsam Zukunft gestalten!",
+    "subtitle": "Nimm Kontakt auf, um Möglichkeiten zu besprechen.",
+    "email_address": "hallo@dennis.cz",
+    "book": "Termin vereinbaren",
+    "call": "Jetzt anrufen"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "email": "hallo@dennis.cz",
+    "phone_pl": "+48 506 057 041",
+    "phone_de": "+49 02359/809 285 5",
+    "social": "Social Media",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "contact_info": "Kontaktinformationen",
+    "responsible_title": "Verantwortlich für den Inhalt",
+    "dispute_title": "Streitschlichtung",
+    "dispute_text": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+    "liability_content_title": "Haftung für Inhalte",
+    "liability_content_text": "Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir sind jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.",
+    "liability_links_title": "Haftung für Links",
+    "liability_links_text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft.",
+    "copyright_title": "Urheberrecht",
+    "copyright_text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "Wir nehmen den Schutz deiner persönlichen Daten sehr ernst. Wir behandeln deine personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich.",
+    "responsible_title": "Verantwortliche Stelle",
+    "data_collection_title": "Datenerfassung auf unserer Webseite",
+    "data_collection_text": "Die Datenverarbeitung auf dieser Webseite erfolgt durch den Websitebetreiber. Dessen Kontaktdaten kannst du dem Impressum dieser Webseite entnehmen. Deine Daten werden zum einen dadurch erhoben, dass du uns diese mitteilst (z.B. Daten in einem Kontaktformular), oder automatisch durch unsere IT-Systeme beim Besuch der Webseite erfasst (vor allem technische Daten wie Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).",
+    "server_logs_title": "Server-Log-Dateien",
+    "server_logs_text": "Der Provider der Seiten erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die dein Browser automatisch an uns übermittelt. Dies sind: Browsertyp und Browserversion, verwendetes Betriebssystem, Referrer URL, Hostname des zugreifenden Rechners und Uhrzeit der Serveranfrage. Diese Daten sind nicht bestimmten Personen zuordenbar.",
+    "cookies_title": "Cookies",
+    "cookies_text": "Unsere Internetseiten verwenden Cookies. Cookies sind kleine Textdateien, die auf deinem Endgerät von deinem Browser gespeichert werden. Cookies richten keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Wir verwenden ausschließlich technisch notwendige Cookies, die für den ordnungsgemäßen Betrieb der Website erforderlich sind.",
+    "contact_form_title": "Kontaktformular",
+    "contact_form_text": "Wenn du uns per Kontaktformular Anfragen zukommen lässt, werden deine Angaben aus dem Anfrageformular inklusive der von dir dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne deine Einwilligung weiter.",
+    "rights_title": "Deine Rechte",
+    "rights_text": "Du hast jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck deiner gespeicherten personenbezogenen Daten zu erhalten. Du hast außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn du eine Einwilligung zur Datenverarbeitung erteilt hast, kannst du diese Einwilligung jederzeit für die Zukunft widerrufen.",
+    "third_party_title": "Drittanbieter-Dienste",
+    "third_party_text": "Unsere Webseite kann Drittanbieter-Dienste für Analysen, eingebettete Inhalte (wie YouTube-Videos) oder Social-Media-Integration nutzen. Diese Dienste können Daten gemäß ihren eigenen Datenschutzrichtlinien erheben.",
+    "changes_title": "Änderungen dieser Datenschutzerklärung",
+    "changes_text": "Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren, um Änderungen unserer Praktiken widerzuspiegeln oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.",
+    "last_updated": "Zuletzt aktualisiert"
+  }
+}

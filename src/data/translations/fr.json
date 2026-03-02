@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "A propos",
+    "events": "Evenements",
+    "contact": "Contact",
+    "impressum": "Mentions legales"
+  },
+  "hero": {
+    "entrepreneur": "ENTREPRENEUR",
+    "adviser": "CONSEILLER",
+    "speaker": "CONFERENCIER",
+    "subtitle": "FONDATEUR & CEO D'ISELLA GROUP, FONDATEUR DE LA MARQUE BERGHAUS TINY HOUSE"
+  },
+  "mission": {
+    "title": "Vous aider a atteindre vos objectifs est ma mission.",
+    "subtitle": "En tant que l'un des experts leaders en Tiny House en Allemagne et specialiste reconnu en marketing, vente et communication, je vous aide a atteindre vos objectifs."
+  },
+  "intro": {
+    "title": "Faisons connaissance",
+    "partnership": "Partenariat commercial",
+    "adviser": "Conseiller d'affaires"
+  },
+  "partnership": {
+    "title": "Partenariat commercial",
+    "subtitle": "Faconnons l'avenir ensemble",
+    "description": "Travaillez avec Dennis Czekalla en tant qu'investisseur ou partenaire commercial. Decouvrez les opportunites qui s'offrent a vous et laissez un message.",
+    "cta": "Laisser un message"
+  },
+  "adviser": {
+    "title": "Conseiller d'affaires",
+    "subtitle": "Marketing, vente et entree sur le marche en Allemagne et en Pologne",
+    "description": "Vous prevoyez d'entrer sur un nouveau marche ou avez besoin de soutien pour votre orientation marketing et commerciale ? Profitez de l'experience et des connaissances d'un expert confirme et faites de votre entreprise en Europe un succes !",
+    "cta": "Prendre contact"
+  },
+  "about": {
+    "title": "A propos de moi",
+    "bio": "Dennis Czekalla est entrepreneur, conseiller et speaker international. En 2020, il a fonde l'Isella Group — une agence internationale pour les projets d'affaires innovants. A travers l'Isella Group, il a construit la marque Berghaus a partir de zero, etablissant l'un des principaux fabricants de tiny houses et maisons modulaires en Allemagne. Aujourd'hui, Berghaus exploite des installations de production et sert des clients en Allemagne, en Pologne et au-dela. Athlete d'endurance et triathlete, Dennis apporte la meme discipline et determination dans les affaires que dans le sport.",
+    "companies": "4+",
+    "companiesLabel": "Entreprises fondees",
+    "countries": "3",
+    "countriesLabel": "Pays",
+    "houses": "200+",
+    "housesLabel": "Maisons construites",
+    "team": "50+",
+    "teamLabel": "Membres de l'equipe"
+  },
+  "brands": {
+    "title": "Fondateur & CEO",
+    "berghaus": "Marque Tiny House & maisons modulaires",
+    "isella": "Agence internationale pour projets d'affaires innovants",
+    "tri2thrive": "Triathlon & style de vie d'endurance",
+    "becz": "Investissement & conseil"
+  },
+  "testimonials": {
+    "title": "Ce que les autres disent",
+    "items": {
+      "0": {
+        "quote": "Travailler avec Dennis est un privilege ! Il n'est pas seulement un expert dans ce qu'il fait. Partout ou il apparait, il repand beaucoup d'energie positive et apporte une valeur incroyable !",
+        "name": "Damian Wilpert",
+        "role": "Entrepreneur & coach en communication",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "Pour moi, Dennis Czekalla est l'un des principaux experts Tiny House en Allemagne. Un gars terre-a-terre qui connait son metier !",
+        "name": "Dirk Hildebrand",
+        "role": "Scientifique, auteur & CEO d'AudioExperten",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla est une vraie benediction pour Kuckuck. Avec son entreprise Berghaus, nous avons trouve un partenaire qui realise nos souhaits de maniere grandiose. Fiable, precis et rapide !",
+        "name": "Maximilian Nordmann",
+        "role": "Fondateur & CEO de Kuckuck",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "On peut difficilement faire mieux !",
+        "name": "Jury",
+        "role": "Suedwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
+  "events": {
+    "title": "Evenements a venir",
+    "subtitle": "Conferences & apparitions",
+    "coming_soon": "Nouveaux evenements bientot. Suivez les reseaux sociaux pour les mises a jour."
+  },
+  "media": {
+    "title": "Medias & apparitions",
+    "podcasts": "Podcasts",
+    "hausgemacht": "Podcast Hausgemacht",
+    "tri2thrive": "Podcast Tri2Thrive"
+  },
+  "contact": {
+    "title": "Faconnons l'avenir ensemble !",
+    "subtitle": "Prenez contact pour discuter des opportunites.",
+    "email_address": "hallo@dennis.cz",
+    "book": "Prendre rendez-vous",
+    "call": "Appeler maintenant"
+  },
+  "footer": {
+    "contact": "Contact",
+    "email": "hallo@dennis.cz",
+    "phone_pl": "+48 506 057 041",
+    "phone_de": "+49 02359/809 285 5",
+    "social": "Reseaux sociaux",
+    "legal": "Mentions legales",
+    "impressum": "Mentions legales",
+    "privacy": "Politique de confidentialite",
+    "rights": "Tous droits reserves."
+  },
+  "impressum": {
+    "title": "Mentions legales",
+    "contact_info": "Coordonnees",
+    "responsible_title": "Responsable du contenu",
+    "dispute_title": "Resolution des litiges",
+    "dispute_text": "La Commission europeenne fournit une plateforme de resolution des litiges en ligne (RLL). Nous ne sommes ni obliges ni disposes a participer a des procedures de resolution des litiges devant un comite d'arbitrage des consommateurs.",
+    "liability_content_title": "Responsabilite du contenu",
+    "liability_content_text": "En tant que fournisseur de services, nous sommes responsables de nos propres contenus sur ces pages conformement aux lois generales. Cependant, nous ne sommes pas obliges de surveiller les informations tierces transmises ou stockees, ni de rechercher des circonstances indiquant une activite illegale.",
+    "liability_links_title": "Responsabilite des liens",
+    "liability_links_text": "Notre site contient des liens vers des sites web tiers externes sur le contenu desquels nous n'avons aucune influence. Par consequent, nous ne pouvons assumer aucune responsabilite pour ces contenus tiers. Le fournisseur ou l'operateur respectif des pages liees est toujours responsable du contenu des pages liees.",
+    "copyright_title": "Droits d'auteur",
+    "copyright_text": "Les contenus et oeuvres crees par les operateurs du site sur ces pages sont soumis au droit d'auteur. La reproduction, le traitement, la distribution et toute forme d'exploitation au-dela des limites du droit d'auteur necessitent le consentement ecrit de l'auteur ou du createur respectif."
+  },
+  "privacy": {
+    "title": "Politique de confidentialite",
+    "intro": "Nous prenons la protection de vos donnees personnelles tres au serieux. Nous traitons vos donnees personnelles de maniere confidentielle et conformement aux dispositions legales en matiere de protection des donnees et a la presente politique de confidentialite. L'utilisation de notre site web est generalement possible sans fournir de donnees personnelles.",
+    "responsible_title": "Responsable du traitement",
+    "data_collection_title": "Collecte de donnees sur notre site",
+    "data_collection_text": "Le traitement des donnees sur ce site est effectue par l'operateur du site. Ses coordonnees se trouvent dans les mentions legales de ce site. Vos donnees sont collectees soit par vous (par exemple, donnees saisies dans un formulaire de contact), soit automatiquement par nos systemes informatiques lors de votre visite sur le site.",
+    "server_logs_title": "Fichiers journaux du serveur",
+    "server_logs_text": "Le fournisseur des pages collecte et stocke automatiquement des informations dans des fichiers journaux du serveur que votre navigateur nous transmet automatiquement. Il s'agit du type et de la version du navigateur, du systeme d'exploitation utilise, de l'URL de reference, du nom d'hote de l'ordinateur accedant et de l'heure de la requete du serveur.",
+    "cookies_title": "Cookies",
+    "cookies_text": "Nos pages Internet utilisent des cookies. Les cookies sont de petits fichiers textes stockes sur votre appareil par votre navigateur. Les cookies ne causent aucun dommage et ne contiennent pas de virus. Nous utilisons uniquement des cookies techniquement necessaires au bon fonctionnement du site web, comme le cookie de preference de langue.",
+    "contact_form_title": "Formulaire de contact",
+    "contact_form_text": "Si vous nous envoyez des demandes via le formulaire de contact, vos informations du formulaire de demande, y compris les coordonnees que vous y avez fournies, seront stockees chez nous aux fins du traitement de la demande et en cas de questions de suivi.",
+    "rights_title": "Vos droits",
+    "rights_text": "Vous avez le droit de recevoir gratuitement des informations sur l'origine, le destinataire et la finalite de vos donnees personnelles stockees a tout moment. Vous avez egalement le droit de demander la correction ou la suppression de ces donnees. Si vous avez donne votre consentement au traitement des donnees, vous pouvez le revoquer a tout moment pour l'avenir.",
+    "third_party_title": "Services tiers",
+    "third_party_text": "Notre site web peut utiliser des services tiers pour l'analyse, le contenu integre (comme les videos YouTube) ou l'integration des reseaux sociaux. Ces services peuvent collecter des donnees conformement a leurs propres politiques de confidentialite.",
+    "changes_title": "Modifications de cette politique de confidentialite",
+    "changes_text": "Nous nous reservons le droit de mettre a jour cette politique de confidentialite pour refleter les changements dans nos pratiques ou pour d'autres raisons operationnelles, legales ou reglementaires.",
+    "last_updated": "Derniere mise a jour"
+  }
+}

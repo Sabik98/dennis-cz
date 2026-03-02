@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "events": "Events",
+    "contact": "Contact",
+    "impressum": "Impressum"
+  },
+  "hero": {
+    "entrepreneur": "ENTREPRENEUR",
+    "adviser": "ADVISER",
+    "speaker": "SPEAKER",
+    "subtitle": "FOUNDER & CEO OF ISELLA GROUP, FOUNDER OF THE BERGHAUS TINY HOUSE BRAND"
+  },
+  "mission": {
+    "title": "Making you achieve your goals is my mission.",
+    "subtitle": "As one of the leading Tiny House experts in Germany and a proven specialist in marketing, sales and communication, I help you achieve your goals."
+  },
+  "intro": {
+    "title": "Let's Get to Know Each Other",
+    "partnership": "Business Partnership",
+    "adviser": "Business Adviser"
+  },
+  "partnership": {
+    "title": "Business Partnership",
+    "subtitle": "Shaping the Future Together",
+    "description": "Work together with Dennis Czekalla as an investor or business partner. Get to know which opportunities you have and leave a message.",
+    "cta": "Leave a Message"
+  },
+  "adviser": {
+    "title": "Business Adviser",
+    "subtitle": "Marketing, Sales and Market-Entry in Germany and Poland",
+    "description": "Are you planning to enter a new market or do you need support with your marketing and sales orientation? Rely on the experience and knowledge of a proven expert and make your business in Europe a success!",
+    "cta": "Get in Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Dennis Czekalla is an entrepreneur, adviser, and international speaker. In 2020, he founded the Isella Group — an international agency for innovative business projects. Through Isella Group, he built the Berghaus brand from scratch, establishing one of Germany's leading tiny house and modular housing manufacturers. Today, Berghaus operates production facilities and serves customers across Germany, Poland, and beyond. An endurance athlete and triathlete, Dennis brings the same discipline and determination to business as he does to sport.",
+    "companies": "4+",
+    "companiesLabel": "Companies Founded",
+    "countries": "3",
+    "countriesLabel": "Countries",
+    "houses": "200+",
+    "housesLabel": "Houses Built",
+    "team": "50+",
+    "teamLabel": "Team Members"
+  },
+  "brands": {
+    "title": "Founder & CEO",
+    "berghaus": "Tiny House & Modular Housing Brand",
+    "isella": "International Agency for Innovative Business Projects",
+    "tri2thrive": "Triathlon & Endurance Lifestyle",
+    "becz": "Investment & Consulting"
+  },
+  "testimonials": {
+    "title": "What Others Say",
+    "items": {
+      "0": {
+        "quote": "Working with Dennis is a privilege! He's not only an expert at what he does. Wherever he appears, he spreads a lot of positive energy and gives an amazing value!",
+        "name": "Damian Wilpert",
+        "role": "Entrepreneur & Communication Coach",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "For me, Dennis Czekalla is one of the leading Tiny House experts in Germany. Down-to-earth guy who knows his trade!",
+        "name": "Dirk Hildebrand",
+        "role": "Scientist, Author & CEO of AudioExperten",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla is a real godsend for Kuckuck. With his company Berghaus we have found a partner who is great at implementing our wishes. Reliable, precise and fast!",
+        "name": "Maximilian Nordmann",
+        "role": "Founder & CEO of Kuckuck",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "You almost can't do better!",
+        "name": "Jury",
+        "role": "Suedwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "subtitle": "Speaking Engagements & Appearances",
+    "coming_soon": "New events coming soon. Follow on social media for updates."
+  },
+  "media": {
+    "title": "Media & Appearances",
+    "podcasts": "Podcasts",
+    "hausgemacht": "Hausgemacht Podcast",
+    "tri2thrive": "Tri2Thrive Podcast"
+  },
+  "contact": {
+    "title": "Let's Shape the Future Together",
+    "subtitle": "Got a question or want to work together? Drop me a line.",
+    "email_address": "hallo@dennis.cz",
+    "book": "Book a Meeting",
+    "call": "Call Now"
+  },
+  "footer": {
+    "contact": "Contact",
+    "email": "hallo@dennis.cz",
+    "phone_pl": "+48 506 057 041",
+    "phone_de": "+49 02359/809 285 5",
+    "social": "Social",
+    "legal": "Legal",
+    "impressum": "Impressum",
+    "privacy": "Privacy Policy",
+    "rights": "All rights reserved."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "contact_info": "Contact Information",
+    "responsible_title": "Responsible for Content",
+    "dispute_title": "Dispute Resolution",
+    "dispute_text": "The European Commission provides a platform for online dispute resolution (ODR). We are not obligated and not willing to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "liability_content_title": "Liability for Content",
+    "liability_content_text": "As a service provider, we are responsible for our own content on these pages in accordance with general laws. However, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information in accordance with general laws remain unaffected. Any liability in this regard is only possible from the point in time at which a concrete infringement of the law becomes known.",
+    "liability_links_title": "Liability for Links",
+    "liability_links_text": "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot assume any liability for this third-party content. The respective provider or operator of the linked pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. No illegal content was discernible at the time of linking.",
+    "copyright_title": "Copyright",
+    "copyright_text": "The content and works created by the site operators on these pages are subject to copyright law. Duplication, processing, distribution, and any kind of exploitation beyond the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy. The use of our website is generally possible without providing personal data.",
+    "responsible_title": "Responsible Party",
+    "data_collection_title": "Data Collection on Our Website",
+    "data_collection_text": "Data collection on this website is carried out by the website operator. The operator's contact details can be found in the impressum of this website. Your data is collected either by you providing it to us (e.g., data entered in a contact form) or by being automatically collected by our IT systems when you visit the website (mainly technical data such as the internet browser, operating system, or time of page access).",
+    "server_logs_title": "Server Log Files",
+    "server_logs_text": "The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are: browser type and version, operating system used, referrer URL, hostname of the accessing computer, and time of the server request. This data cannot be assigned to specific persons. A combination of this data with other data sources is not carried out. We reserve the right to check this data retrospectively if we become aware of specific indications of illegal use.",
+    "cookies_title": "Cookies",
+    "cookies_text": "Our website uses cookies. Cookies are small text files that are stored on your device by your browser. Cookies do not cause any damage and do not contain viruses. Cookies serve to make our offerings more user-friendly, effective, and secure. We only use technically necessary cookies required for the proper functioning of the website, such as the language preference cookie.",
+    "contact_form_title": "Contact Form",
+    "contact_form_text": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact data you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent. The processing of the data entered in the contact form is based exclusively on your consent (Art. 6 para. 1 lit. a GDPR).",
+    "rights_title": "Your Rights",
+    "rights_text": "You have the right to receive information about the origin, recipient, and purpose of your stored personal data free of charge at any time. You also have the right to request the correction or deletion of this data. If you have given consent to data processing, you can revoke this consent at any time for the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. Furthermore, you have the right to lodge a complaint with the competent supervisory authority.",
+    "third_party_title": "Third-Party Services",
+    "third_party_text": "Our website may use third-party services for analytics, embedded content (such as YouTube videos), or social media integration. These services may collect data in accordance with their own privacy policies. We recommend reviewing the privacy policies of these third-party providers for further information.",
+    "changes_title": "Changes to This Privacy Policy",
+    "changes_text": "We reserve the right to update this privacy policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to periodically review this page for the latest information on our privacy practices.",
+    "last_updated": "Last updated"
+  }
+}
