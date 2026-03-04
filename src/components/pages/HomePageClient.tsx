@@ -155,10 +155,10 @@ export default function HomePageClient() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-80 h-[28rem] md:w-96 md:h-[32rem]">
                 <Image
-                  src="/images/dennis-czekalla.jpg"
+                  src="/images/dennis-conversation.png"
                   alt="Dennis Czekalla"
                   fill
-                  className="object-cover grayscale"
+                  className="object-cover"
                   sizes="(max-width: 1024px) 320px, 384px"
                 />
                 {/* Gold corner accent */}
@@ -224,41 +224,37 @@ export default function HomePageClient() {
       </section>
 
       {/* ── 4. Business Partnership — DARK with photo ────────── */}
-      <section ref={partnershipRef} className="bg-[#111111] py-24 md:py-32">
-        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Text — left aligned */}
-            <div>
-              <h2 className="text-[#F4C857] text-sm font-semibold uppercase tracking-[0.2em] mb-4">
-                {t('partnership.subtitle')}
-              </h2>
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-                {t('partnership.title')}
-              </h3>
-              <p className="mt-8 text-white/60 text-lg leading-relaxed">
-                {t('partnership.description')}
-              </p>
-              <a
-                href="mailto:hallo@dennis.cz"
-                className="inline-flex items-center gap-2 mt-10 rounded-full bg-[#55555e] hover:bg-[#3f4047] text-white px-8 py-3 font-medium transition-colors"
-              >
-                <Mail size={18} />
-                {t('partnership.cta')}
-              </a>
-            </div>
+      <section ref={partnershipRef} className="relative min-h-[70vh] flex items-center overflow-hidden">
+        {/* Full-width background image */}
+        <Image
+          src="/images/contact-dennis.png"
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
+        />
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/50" />
 
-            {/* Photo */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative w-80 h-[28rem] md:w-96 md:h-[32rem]">
-                <Image
-                  src="/images/contact-dennis.png"
-                  alt="Dennis Czekalla"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 320px, 384px"
-                />
-              </div>
-            </div>
+        {/* Content */}
+        <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+          <div className="max-w-xl">
+            <h2 className="text-white text-2xl md:text-3xl font-bold leading-tight">
+              {t('partnership.subtitle')}
+            </h2>
+            <h3 className="text-[#F4C857] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mt-2">
+              {t('partnership.title')}
+            </h3>
+            <p className="mt-8 text-white/80 text-lg leading-relaxed">
+              {t('partnership.description')}
+            </p>
+            <a
+              href="mailto:hallo@dennis.cz"
+              className="inline-flex items-center gap-2 mt-10 rounded-full bg-[#F4C857] hover:bg-[#e0b84e] text-black px-10 py-3.5 font-semibold transition-colors"
+            >
+              {t('partnership.cta')}
+            </a>
           </div>
         </div>
       </section>
@@ -313,7 +309,7 @@ export default function HomePageClient() {
             <div className="flex justify-center lg:justify-start">
               <div className="relative w-72 h-96 md:w-80 md:h-[28rem] overflow-hidden">
                 <Image
-                  src="/images/dennis-czekalla.jpg"
+                  src="/images/dennis-presenter.png"
                   alt="Dennis Czekalla"
                   fill
                   className="object-cover"
