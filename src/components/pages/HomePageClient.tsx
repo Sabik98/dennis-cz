@@ -234,24 +234,24 @@ export default function HomePageClient() {
           sizes="100vw"
           priority
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+        {/* Subtle dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/30" />
 
-        {/* Content */}
-        <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <div className="max-w-lg">
-            <h2 className="text-white text-2xl md:text-3xl font-bold leading-tight">
+        {/* Content — left aligned */}
+        <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16 py-24 md:py-32">
+          <div className="max-w-xl">
+            <h2 className="text-white text-xl md:text-2xl lg:text-3xl font-bold leading-tight">
               {t('partnership.subtitle')}
             </h2>
-            <h3 className="text-[#F4C857] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mt-2">
+            <h3 className="text-[#F4C857] text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
               {t('partnership.title')}
             </h3>
-            <p className="mt-8 text-white/80 text-lg leading-relaxed">
+            <p className="mt-6 text-white/90 text-base md:text-lg leading-relaxed">
               {t('partnership.description')}
             </p>
             <a
               href="mailto:hallo@dennis.cz"
-              className="inline-flex items-center gap-2 mt-10 rounded-full bg-[#F4C857] hover:bg-[#e0b84e] text-black px-10 py-3.5 font-semibold transition-colors"
+              className="inline-flex items-center justify-center mt-8 rounded-full bg-[#F4C857] hover:bg-[#e0b84e] text-black px-12 py-3.5 font-semibold transition-colors min-w-[220px]"
             >
               {t('partnership.cta')}
             </a>
