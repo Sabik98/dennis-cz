@@ -227,19 +227,19 @@ export default function HomePageClient() {
       <section ref={partnershipRef} className="relative min-h-[70vh] flex items-center overflow-hidden">
         {/* Full-width background image */}
         <Image
-          src="/images/contact-dennis.png"
+          src="/images/partnership-bg.png"
           alt=""
           fill
-          className="object-cover"
+          className="object-cover object-center"
           sizes="100vw"
           priority
         />
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
 
         {/* Content */}
         <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <div className="max-w-xl">
+          <div className="max-w-lg">
             <h2 className="text-white text-2xl md:text-3xl font-bold leading-tight">
               {t('partnership.subtitle')}
             </h2>
