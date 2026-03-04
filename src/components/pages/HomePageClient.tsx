@@ -267,7 +267,7 @@ export default function HomePageClient() {
             <div className="flex justify-center lg:justify-start order-2 lg:order-1">
               <div className="relative w-80 h-[28rem] md:w-96 md:h-[32rem]">
                 <Image
-                  src="/images/dennis-czekalla.jpg"
+                  src="/images/adviser-bg.png"
                   alt="Dennis Czekalla — Business Adviser"
                   fill
                   className="object-cover"
