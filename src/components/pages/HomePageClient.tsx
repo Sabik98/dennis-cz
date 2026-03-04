@@ -307,13 +307,13 @@ export default function HomePageClient() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Photo — flat, no shadow, no rounded corners */}
             <div className="flex justify-center lg:justify-start">
-              <div className="relative w-72 h-96 md:w-80 md:h-[28rem] overflow-hidden">
+              <div className="relative w-full aspect-[4/5] overflow-hidden">
                 <Image
                   src="/images/dennis-about.jpeg"
                   alt="Dennis Czekalla"
                   fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 288px, 320px"
+                  className="object-cover object-[center_30%]"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </div>
