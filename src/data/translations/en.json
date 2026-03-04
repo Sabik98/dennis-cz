@@ -97,7 +97,12 @@
     "subtitle": "Got a question or want to work together? Drop me a line.",
     "email_address": "hallo@dennis.cz",
     "book": "Book a Meeting",
-    "call": "Call Now"
+    "call": "Call Now",
+    "heading": "Let's Talk.",
+    "tagline": "Got a vision? Let's make it real.",
+    "email_label": "Email",
+    "phone_pl_label": "Poland",
+    "phone_de_label": "Germany"
   },
   "footer": {
     "contact": "Contact",

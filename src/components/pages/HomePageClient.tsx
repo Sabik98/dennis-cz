@@ -493,96 +493,141 @@ export default function HomePageClient() {
         </div>
       </section>
 
-      {/* ── 11. Contact — lighter section, clean ─────────────── */}
-      <section id="contact" className="bg-[#f0f0f0] py-24 md:py-32">
-        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Text — left aligned */}
-            <div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#222222]">
-                {t('contact.title')}
-              </h2>
-              <p className="mt-4 text-[#55555e] text-lg">
-                {t('contact.subtitle')}
-              </p>
+      {/* ── 11. Contact — Immersive Split-Screen ────────────── */}
+      <section id="contact" className="relative bg-black">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
+          {/* Left — Black bg with content */}
+          <div className="flex flex-col justify-center px-6 sm:px-10 lg:px-16 xl:px-24 py-20 lg:py-0 order-2 lg:order-1">
+            {/* Massive headline */}
+            <h2 className="text-6xl md:text-7xl xl:text-8xl font-bold text-[#F4C857] leading-[0.95] tracking-tight">
+              {t('contact.heading')}
+            </h2>
 
-              {/* Email */}
+            {/* Tagline */}
+            <p className="mt-5 text-white/50 text-lg md:text-xl">
+              {t('contact.tagline')}
+            </p>
+
+            {/* Animated gold line */}
+            <div className="animate-gold-line w-full max-w-xs mt-8 mb-10" />
+
+            {/* Contact Cards */}
+            <div className="flex flex-col gap-4 max-w-md">
+              {/* Email Card */}
               <a
                 href="mailto:hallo@dennis.cz"
-                className="inline-block mt-6 text-[#F4C857] text-xl font-semibold hover:underline"
+                className="contact-card-shimmer group flex items-center gap-5 bg-white/[0.04] border border-white/10 hover:border-[#F4C857]/40 px-6 py-5 transition-all duration-300"
               >
-                {t('contact.email_address')}
+                <Mail size={22} className="text-[#F4C857] shrink-0" />
+                <div className="flex-1 min-w-0">
+                  <span className="block text-white/40 text-xs uppercase tracking-widest mb-1">
+                    {t('contact.email_label')}
+                  </span>
+                  <span className="block text-white font-semibold text-lg truncate">
+                    hallo@dennis.cz
+                  </span>
+                </div>
+                <ArrowRight
+                  size={18}
+                  className="text-white/20 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all shrink-0"
+                />
               </a>
 
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row flex-wrap gap-3 mt-10">
-                <a
-                  href="mailto:hallo@dennis.cz"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#55555e] hover:bg-[#3f4047] text-white px-8 py-3 font-medium transition-colors"
-                >
-                  <Mail size={18} />
-                  {t('contact.book')}
-                </a>
-                <a
-                  href="tel:+48506057041"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#55555e] hover:bg-[#3f4047] text-white px-8 py-3 font-medium transition-colors"
-                >
-                  <Phone size={18} />
-                  +48 506 057 041
-                </a>
-                <a
-                  href="tel:+4923598092855"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#55555e] hover:bg-[#3f4047] text-white px-8 py-3 font-medium transition-colors"
-                >
-                  <Phone size={18} />
-                  +49 02359/809 285 5
-                </a>
-              </div>
-
-              {/* Social Icons */}
-              <div className="flex items-center gap-5 mt-10">
-                <a
-                  href="https://linkedin.com/in/czekalla/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#55555e] hover:text-[#F4C857] transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin size={28} />
-                </a>
-                <a
-                  href="https://instagram.com/dennis.czekalla"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#55555e] hover:text-[#F4C857] transition-colors"
-                  aria-label="Instagram"
-                >
-                  <Instagram size={28} />
-                </a>
-                <a
-                  href="https://youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#55555e] hover:text-[#F4C857] transition-colors"
-                  aria-label="YouTube"
-                >
-                  <Youtube size={28} />
-                </a>
-              </div>
-            </div>
-
-            {/* Photo — right side */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative w-72 h-96 md:w-80 md:h-[28rem] overflow-hidden">
-                <Image
-                  src="/images/contact-dennis.png"
-                  alt="Dennis Czekalla"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 288px, 320px"
+              {/* Phone Poland Card */}
+              <a
+                href="tel:+48506057041"
+                className="contact-card-shimmer group flex items-center gap-5 bg-white/[0.04] border border-white/10 hover:border-[#F4C857]/40 px-6 py-5 transition-all duration-300"
+              >
+                <Phone size={22} className="text-[#F4C857] shrink-0" />
+                <div className="flex-1 min-w-0">
+                  <span className="block text-white/40 text-xs uppercase tracking-widest mb-1">
+                    {t('contact.phone_pl_label')}
+                  </span>
+                  <span className="block text-white font-semibold text-lg">
+                    +48 506 057 041
+                  </span>
+                </div>
+                <ArrowRight
+                  size={18}
+                  className="text-white/20 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all shrink-0"
                 />
-              </div>
+              </a>
+
+              {/* Phone Germany Card */}
+              <a
+                href="tel:+4923598092855"
+                className="contact-card-shimmer group flex items-center gap-5 bg-white/[0.04] border border-white/10 hover:border-[#F4C857]/40 px-6 py-5 transition-all duration-300"
+              >
+                <Phone size={22} className="text-[#F4C857] shrink-0" />
+                <div className="flex-1 min-w-0">
+                  <span className="block text-white/40 text-xs uppercase tracking-widest mb-1">
+                    {t('contact.phone_de_label')}
+                  </span>
+                  <span className="block text-white font-semibold text-lg">
+                    +49 02359/809 285 5
+                  </span>
+                </div>
+                <ArrowRight
+                  size={18}
+                  className="text-white/20 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all shrink-0"
+                />
+              </a>
             </div>
+
+            {/* Book a Meeting CTA */}
+            <a
+              href="mailto:hallo@dennis.cz"
+              className="inline-flex items-center justify-center gap-2 mt-10 bg-[#F4C857] hover:bg-[#e0b84e] text-black px-10 py-4 font-bold text-lg uppercase tracking-wide transition-colors max-w-md"
+            >
+              <Mail size={20} />
+              {t('contact.book')}
+            </a>
+
+            {/* Social Icons — square, gold pulse */}
+            <div className="flex items-center gap-4 mt-10">
+              <a
+                href="https://linkedin.com/in/czekalla/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-gold-pulse flex items-center justify-center w-12 h-12 border border-white/10 hover:border-[#F4C857]/50 text-white/40 hover:text-[#F4C857] transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={22} />
+              </a>
+              <a
+                href="https://instagram.com/dennis.czekalla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-gold-pulse flex items-center justify-center w-12 h-12 border border-white/10 hover:border-[#F4C857]/50 text-white/40 hover:text-[#F4C857] transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={22} />
+              </a>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-gold-pulse flex items-center justify-center w-12 h-12 border border-white/10 hover:border-[#F4C857]/50 text-white/40 hover:text-[#F4C857] transition-colors"
+                aria-label="YouTube"
+              >
+                <Youtube size={22} />
+              </a>
+            </div>
+          </div>
+
+          {/* Right — Edge-to-edge Photo */}
+          <div className="relative h-[60vh] lg:h-auto order-1 lg:order-2">
+            <Image
+              src="/images/contact-dennis.png"
+              alt="Dennis Czekalla"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+            {/* Left-edge gradient blending into black */}
+            <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent hidden lg:block" />
+            {/* Bottom gradient for mobile */}
+            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black to-transparent lg:hidden" />
           </div>
         </div>
       </section>

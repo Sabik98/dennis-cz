@@ -97,7 +97,12 @@
     "subtitle": "Prenez contact pour discuter des opportunites.",
     "email_address": "hallo@dennis.cz",
     "book": "Prendre rendez-vous",
-    "call": "Appeler maintenant"
+    "call": "Appeler maintenant",
+    "heading": "Parlons-en.",
+    "tagline": "Vous avez une vision ? Réalisons-la.",
+    "email_label": "Email",
+    "phone_pl_label": "Pologne",
+    "phone_de_label": "Allemagne"
   },
   "footer": {
     "contact": "Contact",

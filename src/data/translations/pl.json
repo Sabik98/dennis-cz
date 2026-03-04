@@ -97,7 +97,12 @@
     "subtitle": "Skontaktuj się, aby omówić możliwości.",
     "email_address": "hallo@dennis.cz",
     "book": "Umów spotkanie",
-    "call": "Zadzwoń teraz"
+    "call": "Zadzwoń teraz",
+    "heading": "Porozmawiajmy.",
+    "tagline": "Masz wizję? Urzeczywistnijmy ją.",
+    "email_label": "Email",
+    "phone_pl_label": "Polska",
+    "phone_de_label": "Niemcy"
   },
   "footer": {
     "contact": "Kontakt",

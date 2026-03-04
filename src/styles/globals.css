@@ -9,3 +9,56 @@ html {
 body {
   font-family: 'Red Hat Display', system-ui, sans-serif;
 }
+
+/* ── Contact Section Animations ──────────────────────────── */
+
+/* Gold line sweep */
+@keyframes gold-line-scan {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-gold-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #F4C857 50%, transparent 100%);
+  background-size: 50% 100%;
+  animation: gold-line-scan 3s ease-in-out infinite;
+}
+
+/* Gold pulse glow on hover */
+@keyframes gold-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(244, 200, 87, 0); }
+  50% { box-shadow: 0 0 16px 4px rgba(244, 200, 87, 0.3); }
+}
+
+.hover-gold-pulse:hover {
+  animation: gold-pulse 2s ease-in-out infinite;
+}
+
+/* Contact card shimmer */
+.contact-card-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card-shimmer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(244, 200, 87, 0.06) 45%,
+    rgba(244, 200, 87, 0.12) 50%,
+    rgba(244, 200, 87, 0.06) 55%,
+    transparent 60%
+  );
+  transform: translateX(-100%);
+  transition: transform 0s;
+  pointer-events: none;
+}
+
+.contact-card-shimmer:hover::before {
+  transform: translateX(100%);
+  transition: transform 0.8s ease;
+}
