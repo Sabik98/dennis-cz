@@ -503,13 +503,25 @@ export default function HomePageClient() {
                 className="group flex flex-col items-center gap-4 transition-opacity duration-300 hover:opacity-100 opacity-70"
               >
                 {brand.logoType === 'image' && brand.logo ? (
-                  <Image
-                    src={brand.logo}
-                    alt={brand.key}
-                    width={brand.key === 'berghaus' ? 80 : 160}
-                    height={brand.key === 'berghaus' ? 80 : 50}
-                    className={brand.key === 'berghaus' ? 'h-28 md:h-36 w-auto object-contain' : 'h-8 md:h-10 w-auto object-contain'}
-                  />
+                  brand.key === 'berghaus' ? (
+                    <div className="h-16 md:h-20 w-40 md:w-48 overflow-hidden relative">
+                      <Image
+                        src={brand.logo}
+                        alt={brand.key}
+                        width={200}
+                        height={200}
+                        className="w-full h-auto object-contain absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[48%] scale-[1.8]"
+                      />
+                    </div>
+                  ) : (
+                    <Image
+                      src={brand.logo}
+                      alt={brand.key}
+                      width={160}
+                      height={50}
+                      className="h-8 md:h-10 w-auto object-contain"
+                    />
+                  )
                 ) : (
                   <span className="text-2xl md:text-3xl font-bold text-white tracking-wide">
                     {brand.key === 'tri2thrive' ? 'Tri2Thrive' : 'BECZ'}
