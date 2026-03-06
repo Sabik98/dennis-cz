@@ -317,7 +317,7 @@ export default function HomePageClient() {
           <div className="max-w-4xl mx-auto mb-16">
             <div className="relative w-full pb-[56.25%] overflow-hidden">
               <iframe
-                src="https://www.youtube.com/embed/S5a-l5gF4BM"
+                src="https://www.youtube-nocookie.com/embed/S5a-l5gF4BM"
                 title="Introduction Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -584,7 +584,7 @@ export default function HomePageClient() {
                 className="relative w-full pb-[56.25%] overflow-hidden"
               >
                 <iframe
-                  src={`https://www.youtube.com/embed/${id}`}
+                  src={`https://www.youtube-nocookie.com/embed/${id}`}
                   title={`YouTube video ${id}`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

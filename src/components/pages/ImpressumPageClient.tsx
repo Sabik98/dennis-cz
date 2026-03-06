@@ -14,6 +14,15 @@ export default function ImpressumPageClient() {
             {t('title')}
           </h1>
 
+          {/* Legal Basis */}
+          <section className="mb-10">
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <p className="text-dennis-gray leading-relaxed">
+                {t('legal_basis')}
+              </p>
+            </div>
+          </section>
+
           {/* Contact Information */}
           <section className="mb-10">
             <h2 className="text-xl font-semibold text-dennis-dark mb-4">

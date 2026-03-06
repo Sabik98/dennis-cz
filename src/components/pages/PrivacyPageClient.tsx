@@ -32,6 +32,7 @@ export default function PrivacyPageClient() {
               <p className="text-dennis-gray">ul. Jana Kasprowicza 22/4</p>
               <p className="text-dennis-gray">31-515 Krakow, Poland</p>
               <p className="text-dennis-gray">hallo@dennis.cz</p>
+              <p className="text-dennis-gray">+48 506 057 041</p>
             </div>
           </section>
 
@@ -71,14 +72,26 @@ export default function PrivacyPageClient() {
             </div>
           </section>
 
-          {/* Contact Forms */}
+          {/* Contact */}
           <section className="mb-10">
             <h2 className="text-xl font-semibold text-dennis-dark mb-4">
-              {t('contact_form_title')}
+              {t('contact_title')}
             </h2>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <p className="text-dennis-gray leading-relaxed">
-                {t('contact_form_text')}
+                {t('contact_text')}
+              </p>
+            </div>
+          </section>
+
+          {/* SSL/TLS Encryption */}
+          <section className="mb-10">
+            <h2 className="text-xl font-semibold text-dennis-dark mb-4">
+              {t('ssl_title')}
+            </h2>
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <p className="text-dennis-gray leading-relaxed">
+                {t('ssl_text')}
               </p>
             </div>
           </section>
@@ -95,6 +108,18 @@ export default function PrivacyPageClient() {
             </div>
           </section>
 
+          {/* Supervisory Authority */}
+          <section className="mb-10">
+            <h2 className="text-xl font-semibold text-dennis-dark mb-4">
+              {t('supervisory_title')}
+            </h2>
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <p className="text-dennis-gray leading-relaxed">
+                {t('supervisory_text')}
+              </p>
+            </div>
+          </section>
+
           {/* Third Party Services */}
           <section className="mb-10">
             <h2 className="text-xl font-semibold text-dennis-dark mb-4">
@@ -103,6 +128,18 @@ export default function PrivacyPageClient() {
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <p className="text-dennis-gray leading-relaxed">
                 {t('third_party_text')}
+              </p>
+            </div>
+          </section>
+
+          {/* Data Retention */}
+          <section className="mb-10">
+            <h2 className="text-xl font-semibold text-dennis-dark mb-4">
+              {t('retention_title')}
+            </h2>
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <p className="text-dennis-gray leading-relaxed">
+                {t('retention_text')}
               </p>
             </div>
           </section>
