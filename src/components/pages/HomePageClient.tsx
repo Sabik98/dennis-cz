@@ -231,7 +231,7 @@ export default function HomePageClient() {
         <div className="absolute inset-0 bg-black/50" />
 
         {/* Content */}
-        <div className="relative z-10 text-center px-4 mt-20 md:mt-24">
+        <div className="relative z-10 text-center px-4 mt-40 md:mt-52">
           {/* Role Tags */}
           <h1 className="flex flex-wrap items-center justify-center gap-x-3 md:gap-x-5 gap-y-2 text-white text-2xl sm:text-3xl md:text-5xl font-bold tracking-wider uppercase">
             <span className="transition-colors duration-300 hover:text-[#F4C857] cursor-pointer">{t('hero.entrepreneur')}</span>
