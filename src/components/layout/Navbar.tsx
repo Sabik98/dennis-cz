@@ -114,7 +114,7 @@ export default function Navbar() {
               <Instagram size={16} />
             </a>
             <a
-              href="https://linkedin.com/in/czekalla/"
+              href="https://www.linkedin.com/in/czekalla/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-dennis-gold transition-colors"

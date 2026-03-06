@@ -73,7 +73,7 @@ export default function Footer() {
               </h3>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://linkedin.com/in/czekalla/"
+                  href="https://www.linkedin.com/in/czekalla/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-dennis-gold transition-colors"

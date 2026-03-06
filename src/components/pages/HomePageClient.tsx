@@ -547,7 +547,7 @@ export default function HomePageClient() {
             {/* Social Links */}
             <div className="flex items-center justify-center gap-6 mt-8">
               <a
-                href="https://linkedin.com/in/czekalla/"
+                href="https://www.linkedin.com/in/czekalla/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/40 hover:text-[#F4C857] transition-colors"
@@ -731,7 +731,7 @@ export default function HomePageClient() {
             {/* Social Icons — square, gold pulse */}
             <div className="flex items-center gap-4 mt-10">
               <a
-                href="https://linkedin.com/in/czekalla/"
+                href="https://www.linkedin.com/in/czekalla/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover-gold-pulse flex items-center justify-center w-12 h-12 border border-white/10 hover:border-[#F4C857]/50 text-white/40 hover:text-[#F4C857] transition-colors"
