@@ -308,16 +308,16 @@ export default function HomePageClient() {
         <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Title + ghost duplicate */}
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
               {t('intro.title')}
             </h2>
-            <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white/10 mt-1 select-none" aria-hidden="true">
+            <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-white/10 mt-1 select-none" aria-hidden="true">
               {t('intro.title')}
             </p>
           </div>
 
           {/* YouTube Embed */}
-          <div className="max-w-4xl mx-auto mb-16">
+          <div className="max-w-2xl mx-auto mb-16">
             <div className="relative w-full pb-[56.25%] overflow-hidden">
               <iframe
                 src="https://www.youtube-nocookie.com/embed/S5a-l5gF4BM"
