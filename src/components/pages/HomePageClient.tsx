@@ -19,7 +19,7 @@ import {
 const brands = [
   {
     key: 'berghaus' as const,
-    logo: '/images/berghaus-logo-white.svg',
+    logo: '/images/berghaus-logo.png',
     logoType: 'image' as const,
     href: 'https://berghaus.house',
   },
@@ -31,8 +31,8 @@ const brands = [
   },
   {
     key: 'tri2thrive' as const,
-    logo: null,
-    logoType: 'text' as const,
+    logo: '/images/tri2thrive-logo.png',
+    logoType: 'image' as const,
     href: 'https://tri2thrive.com',
   },
   {
@@ -503,28 +503,16 @@ export default function HomePageClient() {
                 className="group flex flex-col items-center gap-4 transition-opacity duration-300 hover:opacity-100 opacity-70"
               >
                 {brand.logoType === 'image' && brand.logo ? (
-                  brand.key === 'berghaus' ? (
-                    <div className="h-16 md:h-20 w-40 md:w-48 overflow-hidden relative">
-                      <Image
-                        src={brand.logo}
-                        alt={brand.key}
-                        width={200}
-                        height={200}
-                        className="w-full h-auto object-contain absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[48%] scale-[1.8]"
-                      />
-                    </div>
-                  ) : (
-                    <Image
-                      src={brand.logo}
-                      alt={brand.key}
-                      width={160}
-                      height={50}
-                      className="h-8 md:h-10 w-auto object-contain"
-                    />
-                  )
+                  <Image
+                    src={brand.logo}
+                    alt={brand.key}
+                    width={400}
+                    height={200}
+                    className="h-10 md:h-14 w-auto object-contain"
+                  />
                 ) : (
                   <span className="text-2xl md:text-3xl font-bold text-white tracking-wide">
-                    {brand.key === 'tri2thrive' ? 'Tri2Thrive' : 'BECZ'}
+                    BECZ
                   </span>
                 )}
                 <p className="text-white/40 text-sm text-center max-w-[200px] group-hover:text-white/60 transition-colors">
