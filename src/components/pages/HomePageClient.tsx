@@ -615,22 +615,18 @@ export default function HomePageClient() {
                 />
               </div>
 
-              {/* Tri2Thrive Card — dark, flat */}
-              <a
-                href="https://tri2thrive.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col items-center justify-center bg-[#111111] border border-white/10 hover:border-[#F4C857] p-8 transition-all duration-300 min-h-[352px]"
-              >
-                <Youtube size={48} className="text-[#F4C857] mb-4" />
-                <span className="text-2xl font-bold text-white">
-                  {t('media.tri2thrive')}
-                </span>
-                <ExternalLink
-                  size={16}
-                  className="mt-4 text-white/30 group-hover:text-[#F4C857] transition-colors"
+              {/* Spotify - Tri2Thrive */}
+              <div className="overflow-hidden bg-[#282828]">
+                <iframe
+                  src="https://open.spotify.com/embed/show/3VitQ9rEuYp8NFFIcehYa9?theme=0"
+                  width="100%"
+                  height="352"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  title={t('media.tri2thrive')}
+                  className="border-0"
                 />
-              </a>
+              </div>
             </div>
           </div>
         </div>
