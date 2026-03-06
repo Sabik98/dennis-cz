@@ -246,7 +246,7 @@ export default function HomePageClient() {
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-6 text-white/80 text-xs sm:text-sm md:text-base uppercase tracking-[0.15em] max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-6 text-white text-xs sm:text-sm md:text-base uppercase tracking-[0.15em] max-w-2xl mx-auto leading-relaxed">
             {t('hero.subtitle')}
           </p>
         </div>
