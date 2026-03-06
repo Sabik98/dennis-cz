@@ -512,7 +512,7 @@ export default function HomePageClient() {
                   />
                 ) : (
                   <span className="text-2xl md:text-3xl font-bold text-white tracking-wide">
-                    BECZ
+                    BECZ.
                   </span>
                 )}
                 <p className="text-white/40 text-sm text-center max-w-[200px] group-hover:text-white/60 transition-colors">
