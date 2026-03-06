@@ -233,7 +233,7 @@ export default function HomePageClient() {
         {/* Content */}
         <div className="relative z-10 text-center px-4">
           {/* Role Titles */}
-          <h1 className="flex flex-wrap items-center justify-center text-white font-bold uppercase text-center text-[24px] sm:text-[32px] md:text-[40px]">
+          <h1 className="flex flex-wrap items-center justify-center text-white font-bold uppercase text-center text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px]">
             {(['entrepreneur', 'adviser', 'speaker'] as const).map((role, i) => (
               <span key={role} className="inline-flex px-[15px] py-[10px] md:px-[20px] md:py-[15px]">
                 {i > 0 && <span className="text-[#F4C857] font-light mr-[30px] sm:mr-[40px] md:mr-[50px]">|</span>}
