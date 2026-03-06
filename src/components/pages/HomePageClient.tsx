@@ -253,7 +253,9 @@ export default function HomePageClient() {
               {t('partnership.description')}
             </p>
             <a
-              href="mailto:hallo@dennis.cz"
+              href="https://cal.eu/dennis-czekalla"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center mt-8 rounded-full bg-[#F4C857] hover:bg-[#e0b84e] text-black px-12 py-3.5 font-semibold transition-colors min-w-[220px]"
             >
               {t('partnership.cta')}
@@ -293,7 +295,9 @@ export default function HomePageClient() {
                 {t('adviser.description')}
               </p>
               <a
-                href="mailto:hallo@dennis.cz"
+                href="https://cal.eu/dennis-czekalla"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 mt-10 rounded-full bg-[#55555e] hover:bg-[#3f4047] text-white px-8 py-3 font-medium transition-colors"
               >
                 <Mail size={18} />
@@ -619,12 +623,14 @@ export default function HomePageClient() {
               </a>
             </div>
 
-            {/* Book a Meeting CTA */}
+            {/* Book an Appointment CTA */}
             <a
-              href="mailto:hallo@dennis.cz"
+              href="https://cal.eu/dennis-czekalla"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 mt-10 bg-[#F4C857] hover:bg-[#e0b84e] text-black px-10 py-4 font-bold text-lg uppercase tracking-wide transition-colors max-w-md"
             >
-              <Mail size={20} />
+              <Calendar size={20} />
               {t('contact.book')}
             </a>
 
