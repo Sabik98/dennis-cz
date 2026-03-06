@@ -53,6 +53,7 @@ const videoIds = [
   'e03Aw7oXMcI',
   '2UoB0wgb0Xs',
   'Dc83SNX8IGc',
+  'mshWIKC9IcI',
 ];
 
 /* ─── Stat Keys ──────────────────────────────────────────────── */
@@ -637,6 +638,19 @@ export default function HomePageClient() {
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                   title={t('media.tri2thrive')}
+                  className="border-0"
+                />
+              </div>
+
+              {/* Spotify - Berghaus */}
+              <div className="overflow-hidden bg-[#282828]">
+                <iframe
+                  src="https://open.spotify.com/embed/show/0J2b19l9wQ7ABlnmUdqRDW?theme=0"
+                  width="100%"
+                  height="352"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  title={t('media.berghaus')}
                   className="border-0"
                 />
               </div>
