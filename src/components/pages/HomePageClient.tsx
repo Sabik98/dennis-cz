@@ -302,7 +302,7 @@ export default function HomePageClient() {
 
       {/* ── 3. "Let's Get to Know Each Other" — DARK bg ──────── */}
       <section
-        className="relative py-24 md:py-32 bg-cover bg-center"
+        className="relative pt-24 md:pt-32 pb-40 md:pb-48 bg-cover bg-center overflow-visible z-10"
         style={{ backgroundImage: 'url(/images/background_1.png)' }}
       >
         <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -336,7 +336,7 @@ export default function HomePageClient() {
         </div>
 
         {/* Cards Headline + Navigation Cards — overlapping into next section */}
-        <div className="relative z-20 -mb-24 md:-mb-28 flex flex-col items-center px-4 sm:px-6 lg:px-8 pb-8">
+        <div className="relative z-20 translate-y-1/2 flex flex-col items-center px-4 sm:px-6 lg:px-8">
           <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
             {t('intro.cards_headline')}
           </h3>
@@ -373,7 +373,7 @@ export default function HomePageClient() {
       </section>
 
       {/* ── 4. Business Partnership — DARK with photo ────────── */}
-      <section ref={partnershipRef} className="relative min-h-[70vh] flex items-center overflow-hidden">
+      <section ref={partnershipRef} className="relative min-h-[70vh] flex items-center overflow-hidden pt-20 md:pt-24">
         {/* Full-width background image */}
         <Image
           src="/images/partnership-bg.png"
