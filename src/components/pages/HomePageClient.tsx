@@ -707,7 +707,7 @@ export default function HomePageClient() {
                     {t('contact.phone_de_label')}
                   </span>
                   <span className="block text-white font-semibold text-lg">
-                    +49 02359/809 285 5
+                    +49 2359 809 285 5
                   </span>
                 </div>
                 <ArrowRight

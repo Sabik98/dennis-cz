@@ -46,7 +46,7 @@ export default function ImpressumPageClient() {
                   className="flex items-center gap-2 text-dennis-gray hover:text-dennis-gold transition-colors"
                 >
                   <Phone size={16} />
-                  <span>+49 02359/809 285 5</span>
+                  <span>+49 2359 809 285 5</span>
                 </a>
               </div>
             </div>

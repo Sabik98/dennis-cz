@@ -58,7 +58,7 @@ export default function Footer() {
                   className="flex items-center gap-2.5 text-white/80 hover:text-dennis-gold transition-colors text-sm"
                 >
                   <Phone size={16} className="flex-shrink-0" />
-                  <span>+49 02359/809 285 5</span>
+                  <span>+49 2359 809 285 5</span>
                 </a>
               </li>
             </ul>
