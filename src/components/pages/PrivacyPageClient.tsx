@@ -121,7 +121,7 @@ export default function PrivacyPageClient() {
 
           {/* Last Updated */}
           <div className="text-center text-dennis-gray/60 text-sm">
-            {t('last_updated')}: March 2026
+            {t('last_updated')}: 06.03.2026
           </div>
         </div>
       </div>

@@ -121,6 +121,11 @@ export default function ImpressumPageClient() {
               </p>
             </div>
           </section>
+
+          {/* Last Updated */}
+          <div className="text-center text-dennis-gray/60 text-sm">
+            {t('last_updated')}: 06.03.2026
+          </div>
         </div>
       </div>
     </div>
