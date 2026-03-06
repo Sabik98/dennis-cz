@@ -232,21 +232,20 @@ export default function HomePageClient() {
 
         {/* Content */}
         <div className="relative z-10 text-center px-4">
-          {/* Role Tags */}
-          <h1 className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-white text-2xl sm:text-3xl md:text-5xl font-bold tracking-wider uppercase">
-            <span>{t('hero.entrepreneur')}</span>
-            <span className="text-[#F4C857] text-lg md:text-2xl" aria-hidden="true">
-              &bull;
-            </span>
-            <span>{t('hero.adviser')}</span>
-            <span className="text-[#F4C857] text-lg md:text-2xl" aria-hidden="true">
-              &bull;
-            </span>
-            <span>{t('hero.speaker')}</span>
+          {/* Role Badges */}
+          <h1 className="flex flex-wrap items-center justify-center gap-3 md:gap-5">
+            {(['entrepreneur', 'adviser', 'speaker'] as const).map((role) => (
+              <span
+                key={role}
+                className="inline-block border-2 border-[#F4C857] text-white text-sm sm:text-base md:text-xl lg:text-2xl font-bold uppercase tracking-[0.15em] px-5 py-2 md:px-8 md:py-3"
+              >
+                {t(`hero.${role}`)}
+              </span>
+            ))}
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-6 text-white/80 text-xs sm:text-sm md:text-base uppercase tracking-[0.15em] max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-8 text-white/80 text-xs sm:text-sm md:text-base uppercase tracking-[0.15em] max-w-2xl mx-auto leading-relaxed">
             {t('hero.subtitle')}
           </p>
         </div>
