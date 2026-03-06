@@ -615,7 +615,7 @@ export default function HomePageClient() {
               {t('media.podcasts')}
             </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {/* Spotify - Hausgemacht */}
               <div className="overflow-hidden bg-[#282828]">
                 <iframe
