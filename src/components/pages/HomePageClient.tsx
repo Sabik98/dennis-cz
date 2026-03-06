@@ -335,46 +335,45 @@ export default function HomePageClient() {
 
         </div>
 
+        {/* Cards — positioned at bottom, overlapping into next section */}
+        <div className="absolute bottom-0 left-0 right-0 translate-y-1/2 z-30 flex flex-col items-center px-4 sm:px-6 lg:px-8">
+          <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
+            {t('intro.cards_headline')}
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl w-full">
+            <button
+              onClick={() => scrollTo(partnershipRef)}
+              className="group flex flex-col items-center gap-4 bg-[#111111] border border-white/10 hover:border-[#F4C857] p-8 transition-all duration-300 text-center"
+            >
+              <Mail size={28} className="text-[#F4C857]" />
+              <span className="text-lg font-semibold text-white group-hover:text-[#F4C857] transition-colors">
+                {t('intro.partnership')}
+              </span>
+              <ArrowRight
+                size={18}
+                className="text-white/40 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all"
+              />
+            </button>
+
+            <button
+              onClick={() => scrollTo(adviserRef)}
+              className="group flex flex-col items-center gap-4 bg-[#111111] border border-white/10 hover:border-[#F4C857] p-8 transition-all duration-300 text-center"
+            >
+              <ExternalLink size={28} className="text-[#F4C857]" />
+              <span className="text-lg font-semibold text-white group-hover:text-[#F4C857] transition-colors">
+                {t('intro.adviser')}
+              </span>
+              <ArrowRight
+                size={18}
+                className="text-white/40 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all"
+              />
+            </button>
+          </div>
+        </div>
       </section>
 
-      {/* ── Cards overlay between sections ──────────────────── */}
-      <div className="relative z-30 -mt-20 -mb-20 md:-mt-24 md:-mb-24 flex flex-col items-center px-4 sm:px-6 lg:px-8 bg-black">
-        <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
-          {t('intro.cards_headline')}
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl w-full">
-          <button
-            onClick={() => scrollTo(partnershipRef)}
-            className="group flex flex-col items-center gap-4 bg-[#111111] border border-white/10 hover:border-[#F4C857] p-8 transition-all duration-300 text-center"
-          >
-            <Mail size={28} className="text-[#F4C857]" />
-            <span className="text-lg font-semibold text-white group-hover:text-[#F4C857] transition-colors">
-              {t('intro.partnership')}
-            </span>
-            <ArrowRight
-              size={18}
-              className="text-white/40 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all"
-            />
-          </button>
-
-          <button
-            onClick={() => scrollTo(adviserRef)}
-            className="group flex flex-col items-center gap-4 bg-[#111111] border border-white/10 hover:border-[#F4C857] p-8 transition-all duration-300 text-center"
-          >
-            <ExternalLink size={28} className="text-[#F4C857]" />
-            <span className="text-lg font-semibold text-white group-hover:text-[#F4C857] transition-colors">
-              {t('intro.adviser')}
-            </span>
-            <ArrowRight
-              size={18}
-              className="text-white/40 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all"
-            />
-          </button>
-        </div>
-      </div>
-
       {/* ── 4. Business Partnership — DARK with photo ────────── */}
-      <section ref={partnershipRef} className="relative min-h-[70vh] flex items-center overflow-hidden">
+      <section ref={partnershipRef} className="relative min-h-[70vh] flex items-center overflow-hidden pt-32 md:pt-40">
         {/* Full-width background image */}
         <Image
           src="/images/partnership-bg.png"
