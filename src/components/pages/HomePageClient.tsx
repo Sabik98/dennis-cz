@@ -333,6 +333,11 @@ export default function HomePageClient() {
             </div>
           </div>
 
+          {/* Cards Headline */}
+          <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
+            {t('intro.cards_headline')}
+          </h3>
+
           {/* Navigation Cards — dark with gold border on hover */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <button
