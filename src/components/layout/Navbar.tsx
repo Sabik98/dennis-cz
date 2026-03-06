@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, useRouter, usePathname } from '@/i18n/navigation';
 import { locales, localeFlags, type Locale } from '@/i18n/config';
-import { Instagram, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 
 const navLinks = [
   { key: 'home', href: '/', sectionId: null },
@@ -72,7 +72,6 @@ export default function Navbar() {
             section.scrollIntoView({ behavior: 'smooth' });
           }
         }
-        // If not on homepage, the href will navigate to /#section and browser will scroll
       }
     },
     [pathname]
@@ -99,68 +98,6 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      {/* Top Bar */}
-      <div className="bg-[#636363] text-white">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-9">
-          {/* Social Icons */}
-          <div className="flex items-center gap-3">
-            <a
-              href="https://instagram.com/dennis.czekalla"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-dennis-gold transition-colors"
-              aria-label="Instagram"
-            >
-              <Instagram size={16} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/czekalla/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-dennis-gold transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={16} />
-            </a>
-          </div>
-
-          {/* Language Switcher */}
-          <div className="relative">
-            <button
-              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              className="flex items-center gap-1.5 text-sm hover:text-dennis-gold transition-colors"
-              aria-label="Switch language"
-            >
-              <span>{localeFlags[locale as Locale]}</span>
-              <ChevronDown size={14} className={`transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            {langDropdownOpen && (
-              <>
-                <div
-                  className="fixed inset-0 z-10"
-                  onClick={() => setLangDropdownOpen(false)}
-                />
-                <div className="absolute right-0 top-full mt-1 bg-white text-dennis-dark rounded-lg shadow-lg py-1 z-20 min-w-[140px]">
-                  {locales.map((loc) => (
-                    <button
-                      key={loc}
-                      onClick={() => switchLocale(loc)}
-                      className={`w-full px-4 py-2 text-left text-sm hover:bg-dennis-bg transition-colors flex items-center gap-2 ${
-                        locale === loc ? 'font-semibold bg-dennis-bg' : ''
-                      }`}
-                    >
-                      <span>{localeFlags[loc]}</span>
-                      <span>{loc === 'en' ? 'English' : loc === 'de' ? 'Deutsch' : loc === 'pl' ? 'Polski' : 'Francais'}</span>
-                    </button>
-                  ))}
-                </div>
-              </>
-            )}
-          </div>
-        </div>
-      </div>
-
       {/* Main Header */}
       <nav
         className={`bg-dennis-black transition-shadow duration-300 ${
@@ -180,7 +117,7 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Desktop Nav Links */}
+          {/* Desktop Nav Links + Language Switcher */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
@@ -199,6 +136,41 @@ export default function Navbar() {
                 )}
               </Link>
             ))}
+
+            {/* Language Switcher */}
+            <div className="relative">
+              <button
+                onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+                className="flex items-center gap-1.5 text-sm text-white hover:text-dennis-gold transition-colors"
+                aria-label="Switch language"
+              >
+                <span>{localeFlags[locale as Locale]}</span>
+                <ChevronDown size={14} className={`transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {langDropdownOpen && (
+                <>
+                  <div
+                    className="fixed inset-0 z-10"
+                    onClick={() => setLangDropdownOpen(false)}
+                  />
+                  <div className="absolute right-0 top-full mt-2 bg-white text-dennis-dark rounded-lg shadow-lg py-1 z-20 min-w-[140px]">
+                    {locales.map((loc) => (
+                      <button
+                        key={loc}
+                        onClick={() => switchLocale(loc)}
+                        className={`w-full px-4 py-2 text-left text-sm hover:bg-dennis-bg transition-colors flex items-center gap-2 ${
+                          locale === loc ? 'font-semibold bg-dennis-bg' : ''
+                        }`}
+                      >
+                        <span>{localeFlags[loc]}</span>
+                        <span>{loc === 'en' ? 'English' : loc === 'de' ? 'Deutsch' : loc === 'pl' ? 'Polski' : 'Francais'}</span>
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
 
           {/* Mobile Hamburger */}

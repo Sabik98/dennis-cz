@@ -7,7 +7,7 @@ export default function ImpressumPageClient() {
   const t = useTranslations('impressum');
 
   return (
-    <div className="pt-[100px] pb-20">
+    <div className="pt-[80px] pb-20">
       <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-dennis-dark mt-8 mb-10">
