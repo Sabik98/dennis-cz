@@ -264,44 +264,28 @@ export default function HomePageClient() {
         </button>
       </section>
 
-      {/* ── 2. Mission Section — DARK with photo ─────────────── */}
-      <section id="mission" className="relative bg-black py-24 md:py-32 overflow-hidden">
-        {/* Decorative gold diagonal stripe */}
-        <div
-          className="absolute top-0 right-0 w-[600px] h-full opacity-[0.07] pointer-events-none"
-          style={{
-            background:
-              'repeating-linear-gradient(135deg, transparent, transparent 40px, #F4C857 40px, #F4C857 42px)',
-          }}
+      {/* ── 2. Mission Section — Banner background ─────────────── */}
+      <section id="mission" className="relative overflow-hidden">
+        {/* Banner Background */}
+        <Image
+          src="/images/BanerDennisMisja.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
         />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/40" />
 
-        <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Text — centered on mobile, left on desktop */}
-            <div className="text-center lg:text-left">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-                {t('mission.title')}
-              </h2>
-              <p className="mt-8 text-white/70 text-lg md:text-xl leading-relaxed">
-                {t('mission.subtitle')}
-              </p>
-            </div>
-
-            {/* Photo — B&W Dennis */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative w-80 h-[28rem] md:w-96 md:h-[32rem]">
-                <Image
-                  src="/images/dennis-conversation.png"
-                  alt="Dennis Czekalla"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 320px, 384px"
-                />
-                {/* Gold corner accent */}
-                <div className="absolute -bottom-3 -left-3 w-24 h-24 border-b-2 border-l-2 border-[#F4C857]" />
-                <div className="absolute -top-3 -right-3 w-24 h-24 border-t-2 border-r-2 border-[#F4C857]" />
-              </div>
-            </div>
+        <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+          <div className="max-w-xl text-center lg:text-left">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+              {t('mission.title')}
+            </h2>
+            <p className="mt-8 text-white/70 text-lg md:text-xl leading-relaxed">
+              {t('mission.subtitle')}
+            </p>
           </div>
         </div>
       </section>
