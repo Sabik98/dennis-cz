@@ -301,11 +301,20 @@ export default function HomePageClient() {
       </section>
 
       {/* ── 3. "Let's Get to Know Each Other" — DARK bg ──────── */}
-      <section className="bg-[#0a0a0a] py-24 md:py-32">
+      <section
+        className="relative py-24 md:py-32 bg-cover bg-center"
+        style={{ backgroundImage: 'url(/images/background_1.png)' }}
+      >
         <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-14">
-            {t('intro.title')}
-          </h2>
+          {/* Title + ghost duplicate */}
+          <div className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+              {t('intro.title')}
+            </h2>
+            <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white/10 mt-1 select-none" aria-hidden="true">
+              {t('intro.title')}
+            </p>
+          </div>
 
           {/* YouTube Embed */}
           <div className="max-w-4xl mx-auto mb-16">
