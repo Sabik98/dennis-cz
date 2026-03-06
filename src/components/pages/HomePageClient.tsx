@@ -604,7 +604,7 @@ export default function HomePageClient() {
                 <Instagram size={22} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@dennisczekalla"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover-gold-pulse flex items-center justify-center w-12 h-12 border border-white/10 hover:border-[#F4C857]/50 text-white/40 hover:text-[#F4C857] transition-colors"

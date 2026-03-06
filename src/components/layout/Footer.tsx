@@ -91,7 +91,7 @@ export default function Footer() {
                   <Instagram size={20} />
                 </a>
                 <a
-                  href="https://youtube.com"
+                  href="https://www.youtube.com/@dennisczekalla"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-dennis-gold transition-colors"
