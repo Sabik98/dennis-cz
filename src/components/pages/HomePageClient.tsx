@@ -234,15 +234,15 @@ export default function HomePageClient() {
         <div className="relative z-10 text-center px-4">
           {/* Role Tags */}
           <h1 className="flex flex-wrap items-center justify-center gap-x-3 md:gap-x-5 gap-y-2 text-white text-2xl sm:text-3xl md:text-5xl font-bold tracking-wider uppercase">
-            <span>{t('hero.entrepreneur')}</span>
+            <span className="transition-colors duration-300 hover:text-[#F4C857] cursor-pointer">{t('hero.entrepreneur')}</span>
             <span className="text-[#F4C857] text-lg md:text-2xl font-light" aria-hidden="true">
               |
             </span>
-            <span>{t('hero.adviser')}</span>
+            <span className="transition-colors duration-300 hover:text-[#F4C857] cursor-pointer">{t('hero.adviser')}</span>
             <span className="text-[#F4C857] text-lg md:text-2xl font-light" aria-hidden="true">
               |
             </span>
-            <span>{t('hero.speaker')}</span>
+            <span className="transition-colors duration-300 hover:text-[#F4C857] cursor-pointer">{t('hero.speaker')}</span>
           </h1>
 
           {/* Subtitle */}
