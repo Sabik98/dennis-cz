@@ -508,7 +508,7 @@ export default function HomePageClient() {
                     alt={brand.key}
                     width={400}
                     height={200}
-                    className="h-10 md:h-14 w-auto object-contain"
+                    className={`${brand.key === 'isella' ? 'h-7 md:h-9' : 'h-10 md:h-14'} w-auto object-contain`}
                   />
                 ) : (
                   <span className="text-2xl md:text-3xl font-bold text-white tracking-wide">
