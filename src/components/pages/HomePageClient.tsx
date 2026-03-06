@@ -338,7 +338,7 @@ export default function HomePageClient() {
       </section>
 
       {/* ── Cards overlay between sections ──────────────────── */}
-      <div className="relative z-30 -mt-20 -mb-20 md:-mt-24 md:-mb-24 flex flex-col items-center px-4 sm:px-6 lg:px-8">
+      <div className="relative z-30 -mt-20 -mb-20 md:-mt-24 md:-mb-24 flex flex-col items-center px-4 sm:px-6 lg:px-8 bg-black">
         <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
           {t('intro.cards_headline')}
         </h3>
