@@ -508,7 +508,7 @@ export default function HomePageClient() {
                     alt={brand.key}
                     width={brand.key === 'berghaus' ? 80 : 160}
                     height={brand.key === 'berghaus' ? 80 : 50}
-                    className={brand.key === 'berghaus' ? 'h-20 md:h-24 w-auto object-contain' : 'h-8 md:h-10 w-auto object-contain'}
+                    className={brand.key === 'berghaus' ? 'h-28 md:h-36 w-auto object-contain' : 'h-8 md:h-10 w-auto object-contain'}
                   />
                 ) : (
                   <span className="text-2xl md:text-3xl font-bold text-white tracking-wide">
