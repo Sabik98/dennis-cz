@@ -308,10 +308,14 @@ export default function HomePageClient() {
         <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Title + ghost duplicate */}
           <div className="text-center mb-14">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+            <h2 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white">
               {t('intro.title')}
             </h2>
-            <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-white/10 mt-1 select-none" aria-hidden="true">
+            <p
+              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mt-1 select-none"
+              aria-hidden="true"
+              style={{ WebkitTextStroke: '1px rgba(255,255,255,0.3)', color: 'transparent' }}
+            >
               {t('intro.title')}
             </p>
           </div>
