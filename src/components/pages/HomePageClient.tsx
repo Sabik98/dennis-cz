@@ -321,7 +321,7 @@ export default function HomePageClient() {
           </div>
 
           {/* YouTube Embed */}
-          <div className="max-w-2xl mx-auto mb-16">
+          <div className="max-w-3xl mx-auto mb-16">
             <div className="relative w-full pb-[56.25%] overflow-hidden">
               <iframe
                 src="https://www.youtube-nocookie.com/embed/S5a-l5gF4BM"
