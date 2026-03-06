@@ -13,8 +13,10 @@
     "subtitle": "GRÜNDER & CEO DER ISELLA GROUP, GRÜNDER DER MARKE BERGHAUS"
   },
   "mission": {
-    "title": "Dein Erfolg ist meine Mission.",
-    "subtitle": "Als einer der führenden Tiny House Experten Deutschlands und ausgewiesener Spezialist für Marketing, Vertrieb und Kommunikation helfe ich dir deine Ziele zu erreichen!"
+    "title_before": "Dich",
+    "title_bold": "deine Ziele",
+    "title_after": "erreichen zu lassen, ist meine Mission.",
+    "subtitle": "Als einer der führenden Tiny House Experten Deutschlands und Spezialist für Marketing, Vertrieb und KI-gestützte Geschäftsstrategie helfe ich Unternehmen, intelligenter zu arbeiten, schneller zu skalieren und der Konkurrenz voraus zu sein."
   },
   "intro": {
     "title": "Lass uns einander kennenlernen!",

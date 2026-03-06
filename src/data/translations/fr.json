@@ -13,8 +13,10 @@
     "subtitle": "FONDATEUR & CEO D'ISELLA GROUP, FONDATEUR DE LA MARQUE BERGHAUS"
   },
   "mission": {
-    "title": "Vous aider a atteindre vos objectifs est ma mission.",
-    "subtitle": "En tant que l'un des experts leaders en Tiny House en Allemagne et specialiste reconnu en marketing, vente et communication, je vous aide a atteindre vos objectifs."
+    "title_before": "Vous aider a atteindre",
+    "title_bold": "vos objectifs",
+    "title_after": "est ma mission.",
+    "subtitle": "En tant que l'un des experts leaders en Tiny House en Allemagne et specialiste en marketing, vente et strategie d'entreprise augmentee par l'IA, j'aide les entreprises a travailler plus intelligemment, a se developper plus rapidement et a garder une longueur d'avance sur la concurrence."
   },
   "intro": {
     "title": "Faisons connaissance",

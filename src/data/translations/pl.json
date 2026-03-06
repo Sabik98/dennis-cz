@@ -13,8 +13,10 @@
     "subtitle": "ZAŁOŻYCIEL I CEO ISELLA GROUP, ZAŁOŻYCIEL MARKI BERGHAUS"
   },
   "mission": {
-    "title": "Pomóc Ci osiągnąć Twoje cele — to moja misja.",
-    "subtitle": "Jako jeden z wiodących ekspertów Tiny House w Niemczech i sprawdzony specjalista ds. marketingu, sprzedaży i komunikacji, pomagam Ci osiągnąć Twoje cele."
+    "title_before": "Pomóc Ci osiągnąć",
+    "title_bold": "Twoje cele",
+    "title_after": "— to moja misja.",
+    "subtitle": "Jako jeden z wiodących ekspertów Tiny House w Niemczech i specjalista ds. marketingu, sprzedaży i strategii biznesowej opartej na AI, pomagam firmom pracować mądrzej, skalować szybciej i wyprzedzać konkurencję."
   },
   "intro": {
     "title": "Poznajmy się",

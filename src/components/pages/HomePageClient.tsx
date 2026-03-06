@@ -264,28 +264,38 @@ export default function HomePageClient() {
         </button>
       </section>
 
-      {/* ── 2. Mission Section — Banner background ─────────────── */}
-      <section id="mission" className="relative overflow-hidden">
-        {/* Banner Background */}
-        <Image
-          src="/images/BanerDennisMisja.jpg"
-          alt=""
-          fill
-          className="object-cover"
-          sizes="100vw"
-          priority
-        />
-        {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/40" />
+      {/* ── 2. Mission Section — Parallax banner ─────────────── */}
+      <section
+        id="mission"
+        className="relative min-h-[80vh] flex items-center bg-fixed bg-cover bg-center"
+        style={{ backgroundImage: 'url(/images/BanerDennisMisja.jpg)' }}
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/30" />
 
         <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="max-w-xl text-center lg:text-left">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-              {t('mission.title')}
+            {/* Open quote */}
+            <span className="block text-white/20 text-[120px] md:text-[160px] leading-none font-serif -mb-16 md:-mb-20 select-none" aria-hidden="true">
+              &ldquo;
+            </span>
+
+            {/* Title with mixed weight */}
+            <h2 className="text-3xl md:text-4xl lg:text-[42px] text-white leading-tight font-light">
+              {t('mission.title_before')}{' '}
+              <strong className="font-bold">{t('mission.title_bold')}</strong>{' '}
+              {t('mission.title_after')}
             </h2>
-            <p className="mt-8 text-white/70 text-lg md:text-xl leading-relaxed">
+
+            {/* Subtitle — italic bold */}
+            <p className="mt-8 text-white font-bold italic text-lg md:text-xl leading-relaxed">
               {t('mission.subtitle')}
             </p>
+
+            {/* Close quote */}
+            <span className="block text-white/20 text-[120px] md:text-[160px] leading-none font-serif -mt-10 md:-mt-14 text-right select-none" aria-hidden="true">
+              &rdquo;
+            </span>
           </div>
         </div>
       </section>

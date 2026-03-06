@@ -13,8 +13,10 @@
     "subtitle": "FOUNDER & CEO OF ISELLA GROUP, FOUNDER OF THE BERGHAUS BRAND"
   },
   "mission": {
-    "title": "Making you achieve your goals is my mission.",
-    "subtitle": "As one of the leading Tiny House experts in Germany and a proven specialist in marketing, sales and communication, I help you achieve your goals."
+    "title_before": "Making you achieve",
+    "title_bold": "your goals",
+    "title_after": "is my mission.",
+    "subtitle": "As one of the leading Tiny House experts in Germany and a specialist in marketing, sales and AI-enhanced business strategy, I help companies work smarter, scale faster, and stay ahead of the competition."
   },
   "intro": {
     "title": "Let's Get to Know Each Other",
