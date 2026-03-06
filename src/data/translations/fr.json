@@ -104,6 +104,35 @@
     "phone_pl_label": "Pologne",
     "phone_de_label": "Allemagne"
   },
+  "testimonials": {
+    "title": "Ce que les autres disent",
+    "items": {
+      "0": {
+        "quote": "Travailler avec Dennis est un privilege ! Il n'est pas seulement un expert dans ce qu'il fait. Partout ou il apparait, il repand beaucoup d'energie positive et apporte une valeur incroyable !",
+        "name": "Damian Wilpert",
+        "role": "Entrepreneur & coach en communication",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "Pour moi, Dennis Czekalla est l'un des principaux experts Tiny House en Allemagne. Un gars terre-a-terre qui connait son metier !",
+        "name": "Dirk Hildebrand",
+        "role": "Scientifique, auteur & CEO d'AudioExperten",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla est une vraie benediction pour Kuckuck. Avec son entreprise Berghaus, nous avons trouve un partenaire qui realise nos souhaits de maniere grandiose. Fiable, precis et rapide !",
+        "name": "Maximilian Nordmann",
+        "role": "Fondateur & CEO de Kuckuck",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "On peut difficilement faire mieux !",
+        "name": "Jury",
+        "role": "Suedwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
   "footer": {
     "contact": "Contact",
     "email": "hallo@dennis.cz",

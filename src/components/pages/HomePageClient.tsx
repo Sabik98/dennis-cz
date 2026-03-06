@@ -58,6 +58,9 @@ const videoIds = [
 /* ─── Stat Keys ──────────────────────────────────────────────── */
 const statKeys = ['companies', 'countries', 'houses', 'team'] as const;
 
+/* ─── Testimonial Count ─────────────────────────────────────── */
+const testimonialCount = 4;
+
 /* ═══════════════════════════════════════════════════════════════
    HomePageClient — dark, dramatic personal brand aesthetic
    ═══════════════════════════════════════════════════════════════ */
@@ -384,7 +387,49 @@ export default function HomePageClient() {
         </div>
       </section>
 
-      {/* ── 8. Events — DARK bg, minimal ─────────────────────── */}
+      {/* ── 8. Testimonials — DARK cards with gold left border ── */}
+      <section className="bg-[#0a0a0a] py-24 md:py-32">
+        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-14">
+            {t('testimonials.title')}
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {Array.from({ length: testimonialCount }).map((_, i) => (
+              <div
+                key={i}
+                className="bg-[#1a1a2e] border-l-4 border-[#F4C857] p-8 flex flex-col"
+              >
+                <p className="text-white/90 leading-relaxed flex-1 text-base">
+                  &ldquo;{t(`testimonials.items.${i}.quote`)}&rdquo;
+                </p>
+
+                <div className="mt-6 pt-4 border-t border-white/10">
+                  <p className="font-bold text-white">
+                    {t(`testimonials.items.${i}.name`)}
+                  </p>
+                  <p className="text-white/40 text-sm mt-0.5">
+                    {t(`testimonials.items.${i}.role`)}
+                  </p>
+                  <a
+                    href={t(`testimonials.items.${i}.website`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#F4C857] text-sm hover:underline mt-1 inline-block"
+                  >
+                    {t(`testimonials.items.${i}.website`)
+                      .replace('https://www.', '')
+                      .replace('https://', '')
+                      .replace(/\/$/, '')}
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── 9. Events — DARK bg, minimal ─────────────────────── */}
       <section id="events" className="bg-[#111111] py-24 md:py-32">
         <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">

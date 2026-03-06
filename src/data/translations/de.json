@@ -104,6 +104,35 @@
     "phone_pl_label": "Polen",
     "phone_de_label": "Deutschland"
   },
+  "testimonials": {
+    "title": "Was andere sagen",
+    "items": {
+      "0": {
+        "quote": "Die Zusammenarbeit mit Dennis ist ein Vergnügen! Er ist ein Experte auf seinem Gebiet und wo immer er auch auftaucht, bringt er viel positive Energie und generiert unglaublichen Mehrwert!",
+        "name": "Damian Wilpert",
+        "role": "Unternehmer und Kommunikationstrainer",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "Für mich ist Dennis Czekalla einer der führenden Tiny House Experten in Deutschland. Bodenständiger Typ, der sein Handwerk versteht!",
+        "name": "Dirk Hildebrand",
+        "role": "Medienwissenschaftler, Autor und Unternehmer",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla ist ein echter Glücksfall für Kuckuck. Mit seiner Firma Berghaus haben wir einen Partner gefunden, der unsere Wünsche grandios umsetzt. Zuverlässig, präzise und schnell!",
+        "name": "Maximilian Nordmann",
+        "role": "Gründer von Kuckuck.de",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "Man kann es kaum besser machen!",
+        "name": "Jury",
+        "role": "Südwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
   "footer": {
     "contact": "Kontakt",
     "email": "hallo@dennis.cz",

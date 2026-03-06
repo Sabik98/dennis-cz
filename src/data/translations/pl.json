@@ -104,6 +104,35 @@
     "phone_pl_label": "Polska",
     "phone_de_label": "Niemcy"
   },
+  "testimonials": {
+    "title": "Co mówią inni",
+    "items": {
+      "0": {
+        "quote": "Współpraca z Dennisem to przywilej! Jest nie tylko ekspertem w tym, co robi. Gdziekolwiek się pojawi, szerzy mnóstwo pozytywnej energii i daje niesamowitą wartość!",
+        "name": "Damian Wilpert",
+        "role": "Przedsiębiorca i trener komunikacji",
+        "website": "https://www.damianwilpert.pl/"
+      },
+      "1": {
+        "quote": "Dla mnie Dennis Czekalla jest jednym z czołowych ekspertów Tiny House w Niemczech. Przyziemny facet, który zna swój fach!",
+        "name": "Dirk Hildebrand",
+        "role": "Naukowiec, autor i CEO AudioExperten",
+        "website": "https://www.audioexperten.info/"
+      },
+      "2": {
+        "quote": "Dennis Czekalla to prawdziwy dar od losu dla Kuckuck. Z jego firmą Berghaus znaleźliśmy partnera, który świetnie realizuje nasze życzenia. Niezawodny, precyzyjny i szybki!",
+        "name": "Maximilian Nordmann",
+        "role": "Założyciel i CEO Kuckuck",
+        "website": "https://www.kuckuck.de/"
+      },
+      "3": {
+        "quote": "Prawie nie można zrobić tego lepiej!",
+        "name": "Jury",
+        "role": "Suedwestfalenaward 2022",
+        "website": "https://www.suedwestfalenaward.de/"
+      }
+    }
+  },
   "footer": {
     "contact": "Kontakt",
     "email": "hallo@dennis.cz",
