@@ -9,7 +9,7 @@ export default function ImpressumPageClient() {
   return (
     <div className="pt-[100px] pb-20">
       <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-dennis-dark mt-8 mb-10">
             {t('title')}
           </h1>
@@ -35,7 +35,7 @@ export default function ImpressumPageClient() {
                 <p>31-515 Krakow</p>
                 <p>Poland</p>
               </div>
-              <div className="pt-3 space-y-2">
+              <div className="pt-3 space-y-2 inline-flex flex-col items-center">
                 <a
                   href="mailto:hallo@dennis.cz"
                   className="flex items-center gap-2 text-dennis-gray hover:text-dennis-gold transition-colors"
@@ -132,7 +132,7 @@ export default function ImpressumPageClient() {
           </section>
 
           {/* Last Updated */}
-          <div className="text-center text-dennis-gray/60 text-sm">
+          <div className="text-dennis-gray/60 text-sm">
             {t('last_updated')}: 06.03.2026
           </div>
         </div>

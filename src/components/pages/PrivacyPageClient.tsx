@@ -8,7 +8,7 @@ export default function PrivacyPageClient() {
   return (
     <div className="pt-[100px] pb-20">
       <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-dennis-dark mt-8 mb-10">
             {t('title')}
           </h1>
@@ -157,7 +157,7 @@ export default function PrivacyPageClient() {
           </section>
 
           {/* Last Updated */}
-          <div className="text-center text-dennis-gray/60 text-sm">
+          <div className="text-dennis-gray/60 text-sm">
             {t('last_updated')}: 06.03.2026
           </div>
         </div>
