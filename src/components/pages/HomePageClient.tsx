@@ -333,12 +333,14 @@ export default function HomePageClient() {
             </div>
           </div>
 
-          {/* Cards Headline + Navigation Cards — centered */}
-          <div className="flex flex-col items-center justify-center mt-16">
-            <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
-              {t('intro.cards_headline')}
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl w-full">
+        </div>
+
+        {/* Cards Headline + Navigation Cards — overlapping into next section */}
+        <div className="relative z-20 -mb-24 md:-mb-28 flex flex-col items-center px-4 sm:px-6 lg:px-8 pb-8">
+          <h3 className="text-xl md:text-2xl font-semibold text-white text-center mb-8">
+            {t('intro.cards_headline')}
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl w-full">
             <button
               onClick={() => scrollTo(partnershipRef)}
               className="group flex flex-col items-center gap-4 bg-[#111111] border border-white/10 hover:border-[#F4C857] p-8 transition-all duration-300 text-center"
@@ -366,7 +368,6 @@ export default function HomePageClient() {
                 className="text-white/40 group-hover:text-[#F4C857] group-hover:translate-x-1 transition-all"
               />
             </button>
-            </div>
           </div>
         </div>
       </section>
