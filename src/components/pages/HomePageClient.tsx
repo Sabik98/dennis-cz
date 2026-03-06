@@ -273,7 +273,7 @@ export default function HomePageClient() {
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/30" />
 
-        <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+        <div className="relative z-10 px-6 sm:px-10 lg:px-20 xl:px-32 py-24 md:py-32">
           <div className="max-w-xl text-center lg:text-left">
             {/* Open quote */}
             <span className="block text-white/20 text-[120px] md:text-[160px] leading-none font-serif -mb-16 md:-mb-20 select-none" aria-hidden="true">
