@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import {
@@ -60,6 +60,139 @@ const statKeys = ['companies', 'countries', 'houses', 'team'] as const;
 
 /* ─── Testimonial Count ─────────────────────────────────────── */
 const testimonialCount = 4;
+
+/* ─── Testimonials Stage Component ─────────────────────────── */
+function TestimonialsStage({ t, testimonialCount }: { t: ReturnType<typeof useTranslations>; testimonialCount: number }) {
+  const [active, setActive] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const [animKey, setAnimKey] = useState(0);
+
+  const goTo = useCallback((index: number) => {
+    setActive(index);
+    setAnimKey((k) => k + 1);
+  }, []);
+
+  useEffect(() => {
+    if (isPaused) return;
+    const timer = setInterval(() => {
+      setActive((prev) => {
+        const next = (prev + 1) % testimonialCount;
+        setAnimKey((k) => k + 1);
+        return next;
+      });
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [isPaused, testimonialCount]);
+
+  return (
+    <section
+      className="relative bg-[#0a0a0a] py-24 md:py-32 overflow-hidden"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
+      {/* Diagonal gold stripe texture */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage:
+            'repeating-linear-gradient(135deg, #F4C857 0px, #F4C857 1px, transparent 1px, transparent 28px)',
+        }}
+      />
+
+      <div className="relative max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Title with gold sweep line */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+            {t('testimonials.title')}
+          </h2>
+          <div className="animate-gold-line w-32 mx-auto mt-4" />
+        </div>
+
+        {/* Stage area */}
+        <div className="relative max-w-5xl mx-auto">
+          {/* Giant decorative quote mark */}
+          <div
+            className="absolute -top-6 left-4 md:left-8 text-[#F4C857] opacity-[0.07] select-none pointer-events-none leading-none font-serif"
+            style={{ fontSize: '280px' }}
+          >
+            &ldquo;
+          </div>
+
+          {/* Featured testimonial — asymmetric layout */}
+          <div
+            key={animKey}
+            className="relative flex flex-col md:flex-row items-start gap-8 md:gap-12 min-h-[220px] testimonial-enter"
+          >
+            {/* Quote — left 60% */}
+            <div className="w-full md:w-[60%] flex items-center">
+              <p className="text-white/90 text-lg md:text-xl lg:text-2xl leading-relaxed font-light relative z-10">
+                &ldquo;{t(`testimonials.items.${active}.quote`)}&rdquo;
+              </p>
+            </div>
+
+            {/* Author — right 40% */}
+            <div className="w-full md:w-[40%] flex items-center md:justify-end">
+              <div className="relative px-8 py-6">
+                {/* Gold corner brackets */}
+                <span className="absolute top-0 left-0 w-5 h-5 border-t-2 border-l-2 border-[#F4C857]" />
+                <span className="absolute bottom-0 right-0 w-5 h-5 border-b-2 border-r-2 border-[#F4C857]" />
+
+                <p className="font-bold text-white text-lg">
+                  {t(`testimonials.items.${active}.name`)}
+                </p>
+                <p className="text-white/40 text-sm mt-1">
+                  {t(`testimonials.items.${active}.role`)}
+                </p>
+                <a
+                  href={t(`testimonials.items.${active}.website`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#F4C857] text-sm hover:underline mt-2 inline-block"
+                >
+                  {t(`testimonials.items.${active}.website`)
+                    .replace('https://www.', '')
+                    .replace('https://', '')
+                    .replace(/\/$/, '')}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Progress bar */}
+          <div className="mt-10 h-[2px] bg-white/10 rounded-full overflow-hidden max-w-5xl mx-auto">
+            <div
+              key={`progress-${animKey}`}
+              className={`h-full bg-[#F4C857] rounded-full ${isPaused ? 'testimonial-progress-paused' : ''}`}
+              style={{ animation: 'testimonial-progress 5s linear forwards' }}
+            />
+          </div>
+
+          {/* Selector tabs */}
+          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto">
+            {Array.from({ length: testimonialCount }).map((_, i) => (
+              <button
+                key={i}
+                onClick={() => goTo(i)}
+                className={`contact-card-shimmer text-left px-5 py-4 border transition-all duration-300 ${
+                  i === active
+                    ? 'bg-[#1a1a2e] border-[#F4C857]/40'
+                    : 'bg-[#111119] border-white/5 hover:border-white/20'
+                }`}
+              >
+                <p className={`text-sm font-semibold ${i === active ? 'text-white' : 'text-white/60'}`}>
+                  {t(`testimonials.items.${i}.name`)}
+                </p>
+                <p className="text-white/30 text-xs mt-0.5 truncate">
+                  {t(`testimonials.items.${i}.role`)}
+                </p>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 /* ═══════════════════════════════════════════════════════════════
    HomePageClient — dark, dramatic personal brand aesthetic
@@ -391,47 +524,8 @@ export default function HomePageClient() {
         </div>
       </section>
 
-      {/* ── 8. Testimonials — DARK cards with gold left border ── */}
-      <section className="bg-[#0a0a0a] py-24 md:py-32">
-        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-14">
-            {t('testimonials.title')}
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {Array.from({ length: testimonialCount }).map((_, i) => (
-              <div
-                key={i}
-                className="bg-[#1a1a2e] border-l-4 border-[#F4C857] p-8 flex flex-col"
-              >
-                <p className="text-white/90 leading-relaxed flex-1 text-base">
-                  &ldquo;{t(`testimonials.items.${i}.quote`)}&rdquo;
-                </p>
-
-                <div className="mt-6 pt-4 border-t border-white/10">
-                  <p className="font-bold text-white">
-                    {t(`testimonials.items.${i}.name`)}
-                  </p>
-                  <p className="text-white/40 text-sm mt-0.5">
-                    {t(`testimonials.items.${i}.role`)}
-                  </p>
-                  <a
-                    href={t(`testimonials.items.${i}.website`)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#F4C857] text-sm hover:underline mt-1 inline-block"
-                  >
-                    {t(`testimonials.items.${i}.website`)
-                      .replace('https://www.', '')
-                      .replace('https://', '')
-                      .replace(/\/$/, '')}
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* ── 8. Testimonials — "The Stage" ── */}
+      <TestimonialsStage t={t} testimonialCount={testimonialCount} />
 
       {/* ── 9. Events — DARK bg, minimal ─────────────────────── */}
       <section id="events" className="bg-[#111111] py-24 md:py-32">
