@@ -277,8 +277,8 @@ export default function HomePageClient() {
 
         <div className="relative z-10 max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Text — left aligned */}
-            <div>
+            {/* Text — centered on mobile, left on desktop */}
+            <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
                 {t('mission.title')}
               </h2>
@@ -373,9 +373,9 @@ export default function HomePageClient() {
         {/* Subtle dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/30" />
 
-        {/* Content — left aligned */}
+        {/* Content — centered on mobile, left on desktop */}
         <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16 py-24 md:py-32">
-          <div className="max-w-xl">
+          <div className="max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
             <h2 className="text-white text-xl md:text-2xl lg:text-3xl font-bold leading-tight">
               {t('partnership.subtitle')}
             </h2>
@@ -416,8 +416,8 @@ export default function HomePageClient() {
               </div>
             </div>
 
-            {/* Text — right side, left aligned */}
-            <div className="order-1 lg:order-2">
+            {/* Text — centered on mobile, left on desktop */}
+            <div className="order-1 lg:order-2 text-center lg:text-left">
               <h2 className="text-[#F4C857] text-sm font-semibold uppercase tracking-[0.2em] mb-4">
                 {t('adviser.subtitle')}
               </h2>
@@ -459,7 +459,7 @@ export default function HomePageClient() {
             </div>
 
             {/* Text Content */}
-            <div>
+            <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#222222] mb-6">
                 {t('about.title')}
               </h2>
@@ -636,7 +636,7 @@ export default function HomePageClient() {
       <section id="contact" className="relative bg-black">
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
           {/* Left — Black bg with content */}
-          <div className="flex flex-col justify-center px-6 sm:px-10 lg:px-16 xl:px-24 py-20 lg:py-0 order-2 lg:order-1">
+          <div className="flex flex-col items-center lg:items-start justify-center px-6 sm:px-10 lg:px-16 xl:px-24 py-20 lg:py-0 order-2 lg:order-1 text-center lg:text-left">
             {/* Massive headline */}
             <h2 className="text-6xl md:text-7xl xl:text-8xl font-bold text-[#F4C857] leading-[0.95] tracking-tight">
               {t('contact.heading')}
@@ -725,7 +725,7 @@ export default function HomePageClient() {
             </a>
 
             {/* Social Icons — square, gold pulse */}
-            <div className="flex items-center gap-4 mt-10">
+            <div className="flex items-center justify-center lg:justify-start gap-4 mt-10">
               <a
                 href="https://www.linkedin.com/in/czekalla/"
                 target="_blank"
