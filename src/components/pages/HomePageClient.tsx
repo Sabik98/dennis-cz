@@ -218,6 +218,7 @@ export default function HomePageClient() {
       >
         {/* Background Video */}
         <video
+          ref={(el) => { if (el) el.play().catch(() => {}); }}
           autoPlay
           loop
           muted
