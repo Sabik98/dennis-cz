@@ -137,6 +137,13 @@
       }
     }
   },
+  "cookie": {
+    "message": "Wir verwenden Cookies für wesentliche Website-Funktionen und betten Inhalte von Drittanbietern ein (YouTube, Spotify). Sie können wählen, welche Cookies Sie akzeptieren.",
+    "accept_all": "Alle akzeptieren",
+    "essential_only": "Nur essenzielle",
+    "embed_blocked": "Dieser Inhalt erfordert eine Cookie-Zustimmung zum Laden.",
+    "accept_to_view": "Cookies akzeptieren"
+  },
   "footer": {
     "contact": "Kontakt",
     "email": "hallo@dennis.cz",

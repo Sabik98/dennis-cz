@@ -13,7 +13,9 @@ import {
   Linkedin,
   Youtube,
   Calendar,
+  Cookie,
 } from 'lucide-react';
+import { useCookieConsent } from '@/components/layout/CookieContext';
 
 /* ─── Brand Data ─────────────────────────────────────────────── */
 const brands = [
@@ -200,6 +202,7 @@ function TestimonialsStage({ t, testimonialCount }: { t: ReturnType<typeof useTr
    ═══════════════════════════════════════════════════════════════ */
 export default function HomePageClient() {
   const t = useTranslations();
+  const { hasConsent, acceptAll } = useCookieConsent();
 
   const partnershipRef = useRef<HTMLElement>(null);
   const adviserRef = useRef<HTMLElement>(null);
@@ -325,13 +328,23 @@ export default function HomePageClient() {
           {/* YouTube Embed */}
           <div className="max-w-3xl mx-auto mb-16">
             <div className="relative w-full pb-[56.25%] overflow-hidden">
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/S5a-l5gF4BM"
-                title="Introduction Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0 w-full h-full"
-              />
+              {hasConsent('thirdParty') ? (
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/S5a-l5gF4BM"
+                  title="Introduction Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
+                />
+              ) : (
+                <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#111111] border border-white/10">
+                  <Cookie size={32} className="text-[#F4C857] mb-3" />
+                  <p className="text-white/60 text-sm mb-3 text-center px-4">{t('cookie.embed_blocked')}</p>
+                  <button onClick={acceptAll} className="px-4 py-2 text-sm font-medium bg-[#F4C857] text-black hover:bg-[#F4C857]/90 transition-colors">
+                    {t('cookie.accept_to_view')}
+                  </button>
+                </div>
+              )}
             </div>
           </div>
 
@@ -598,14 +611,24 @@ export default function HomePageClient() {
                 key={id}
                 className="relative w-full pb-[56.25%] overflow-hidden"
               >
-                <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${id}`}
-                  title={`YouTube video ${id}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="absolute inset-0 w-full h-full"
-                  loading="lazy"
-                />
+                {hasConsent('thirdParty') ? (
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${id}`}
+                    title={`YouTube video ${id}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#111111] border border-white/10">
+                    <Cookie size={32} className="text-[#F4C857] mb-3" />
+                    <p className="text-white/60 text-sm mb-3 text-center px-4">{t('cookie.embed_blocked')}</p>
+                    <button onClick={acceptAll} className="px-4 py-2 text-sm font-medium bg-[#F4C857] text-black hover:bg-[#F4C857]/90 transition-colors">
+                      {t('cookie.accept_to_view')}
+                    </button>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -619,41 +642,71 @@ export default function HomePageClient() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {/* Spotify - Hausgemacht */}
               <div className="overflow-hidden bg-[#282828]">
-                <iframe
-                  src="https://open.spotify.com/embed/show/0SuqGsAj2a5HiTlj62L0Mi?theme=0"
-                  width="100%"
-                  height="352"
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                  title={t('media.hausgemacht')}
-                  className="border-0"
-                />
+                {hasConsent('thirdParty') ? (
+                  <iframe
+                    src="https://open.spotify.com/embed/show/0SuqGsAj2a5HiTlj62L0Mi?theme=0"
+                    width="100%"
+                    height="352"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                    title={t('media.hausgemacht')}
+                    className="border-0"
+                  />
+                ) : (
+                  <div className="flex flex-col items-center justify-center h-[352px] bg-[#111111] border border-white/10">
+                    <Cookie size={32} className="text-[#F4C857] mb-3" />
+                    <p className="text-white/60 text-sm mb-3 text-center px-4">{t('cookie.embed_blocked')}</p>
+                    <button onClick={acceptAll} className="px-4 py-2 text-sm font-medium bg-[#F4C857] text-black hover:bg-[#F4C857]/90 transition-colors">
+                      {t('cookie.accept_to_view')}
+                    </button>
+                  </div>
+                )}
               </div>
 
               {/* Spotify - Tri2Thrive */}
               <div className="overflow-hidden bg-[#282828]">
-                <iframe
-                  src="https://open.spotify.com/embed/show/3VitQ9rEuYp8NFFIcehYa9?theme=0"
-                  width="100%"
-                  height="352"
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                  title={t('media.tri2thrive')}
-                  className="border-0"
-                />
+                {hasConsent('thirdParty') ? (
+                  <iframe
+                    src="https://open.spotify.com/embed/show/3VitQ9rEuYp8NFFIcehYa9?theme=0"
+                    width="100%"
+                    height="352"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                    title={t('media.tri2thrive')}
+                    className="border-0"
+                  />
+                ) : (
+                  <div className="flex flex-col items-center justify-center h-[352px] bg-[#111111] border border-white/10">
+                    <Cookie size={32} className="text-[#F4C857] mb-3" />
+                    <p className="text-white/60 text-sm mb-3 text-center px-4">{t('cookie.embed_blocked')}</p>
+                    <button onClick={acceptAll} className="px-4 py-2 text-sm font-medium bg-[#F4C857] text-black hover:bg-[#F4C857]/90 transition-colors">
+                      {t('cookie.accept_to_view')}
+                    </button>
+                  </div>
+                )}
               </div>
 
               {/* Spotify - Berghaus */}
               <div className="overflow-hidden bg-[#282828]">
-                <iframe
-                  src="https://open.spotify.com/embed/show/0J2b19l9wQ7ABlnmUdqRDW?theme=0"
-                  width="100%"
-                  height="352"
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                  title={t('media.berghaus')}
-                  className="border-0"
-                />
+                {hasConsent('thirdParty') ? (
+                  <iframe
+                    src="https://open.spotify.com/embed/show/0J2b19l9wQ7ABlnmUdqRDW?theme=0"
+                    width="100%"
+                    height="352"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                    title={t('media.berghaus')}
+                    className="border-0"
+                  />
+                ) : (
+                  <div className="flex flex-col items-center justify-center h-[352px] bg-[#111111] border border-white/10">
+                    <Cookie size={32} className="text-[#F4C857] mb-3" />
+                    <p className="text-white/60 text-sm mb-3 text-center px-4">{t('cookie.embed_blocked')}</p>
+                    <button onClick={acceptAll} className="px-4 py-2 text-sm font-medium bg-[#F4C857] text-black hover:bg-[#F4C857]/90 transition-colors">
+                      {t('cookie.accept_to_view')}
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           </div>

@@ -6,6 +6,8 @@ import { notFound } from 'next/navigation';
 import { locales, type Locale } from '@/i18n/config';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import { CookieConsentProvider } from '@/components/layout/CookieContext';
+import CookieBanner from '@/components/layout/CookieBanner';
 import '@/styles/globals.css';
 
 const redHatDisplay = Red_Hat_Display({
@@ -52,9 +54,12 @@ export default async function LocaleLayout({
     <html lang={locale} className={redHatDisplay.variable}>
       <body className={`${redHatDisplay.className} bg-dennis-bg text-dennis-dark antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
+          <CookieConsentProvider>
+            <Navbar />
+            <main className="min-h-screen">{children}</main>
+            <Footer />
+            <CookieBanner />
+          </CookieConsentProvider>
         </NextIntlClientProvider>
       </body>
     </html>

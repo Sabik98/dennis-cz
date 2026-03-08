@@ -137,6 +137,13 @@
       }
     }
   },
+  "cookie": {
+    "message": "We use cookies for essential site functionality and embed third-party content (YouTube, Spotify). You can choose which cookies to accept.",
+    "accept_all": "Accept All",
+    "essential_only": "Essential Only",
+    "embed_blocked": "This content requires cookie consent to load.",
+    "accept_to_view": "Accept Cookies"
+  },
   "footer": {
     "contact": "Contact",
     "email": "hallo@dennis.cz",
