@@ -267,8 +267,8 @@ export default function HomePageClient() {
       {/* ── 2. Mission Section — Parallax banner ─────────────── */}
       <section
         id="mission"
-        className="relative min-h-[80vh] flex items-center bg-fixed bg-black"
-        style={{ backgroundImage: 'url(/images/BanerDennisMisja.jpg)', backgroundSize: '100% auto', backgroundPosition: 'center 20%', backgroundRepeat: 'no-repeat' }}
+        className="relative min-h-[80vh] flex items-center bg-fixed bg-cover"
+        style={{ backgroundImage: 'url(/images/BanerDennisMisja.jpg)', backgroundPosition: 'center top' }}
       >
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/30" />
