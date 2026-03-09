@@ -268,7 +268,7 @@ export default function HomePageClient() {
       <section
         id="mission"
         className="relative min-h-[80vh] flex items-center bg-fixed bg-cover"
-        style={{ backgroundImage: 'url(/images/BanerDennisMisja.jpg)', backgroundPosition: 'center top' }}
+        style={{ backgroundImage: 'url(/images/BanerDennisMisja.jpg)', backgroundPosition: 'center -150px' }}
       >
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/30" />
