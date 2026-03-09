@@ -672,7 +672,7 @@ export default function HomePageClient() {
           {/* Left — Black bg with content */}
           <div className="flex flex-col items-center lg:items-start justify-center px-6 sm:px-10 lg:px-16 xl:px-24 py-20 lg:py-0 order-2 lg:order-1 text-center lg:text-left">
             {/* Massive headline */}
-            <h2 className="text-6xl md:text-7xl xl:text-8xl font-bold text-[#F4C857] leading-[0.95] tracking-tight">
+            <h2 className="text-5xl md:text-6xl xl:text-7xl font-bold text-[#F4C857] leading-[0.95] tracking-tight">
               {t('contact.heading')}
             </h2>
 
