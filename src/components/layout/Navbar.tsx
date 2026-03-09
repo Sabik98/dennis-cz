@@ -78,13 +78,13 @@ export default function Navbar() {
   );
 
   const isActive = (link: (typeof navLinks)[number]) => {
+    if (link.key === 'home' && pathname === '/') {
+      return !activeSection || activeSection === 'home';
+    }
     if (link.sectionId && pathname === '/') {
       return activeSection === link.sectionId;
     }
-    if (link.href === '/' && pathname === '/') {
-      return !activeSection;
-    }
-    if (link.href !== '/' && !link.sectionId) {
+    if (!link.sectionId) {
       return pathname === link.href;
     }
     return false;
