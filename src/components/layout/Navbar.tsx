@@ -8,7 +8,7 @@ import { locales, localeFlags, type Locale } from '@/i18n/config';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 const navLinks = [
-  { key: 'home', href: '/', sectionId: null },
+  { key: 'home', href: '/#home', sectionId: 'home' },
   { key: 'about', href: '/#about', sectionId: 'about' },
   { key: 'events', href: '/#events', sectionId: 'events' },
   { key: 'contact', href: '/#contact', sectionId: 'contact' },
