@@ -9,36 +9,37 @@
   "hero": {
     "entrepreneur": "ENTREPRENEUR",
     "adviser": "CONSEILLER",
-    "speaker": "CONFERENCIER",
-    "subtitle": "FONDATEUR & CEO D'ISELLA GROUP, FONDATEUR DE LA MARQUE BERGHAUS"
+    "speaker": "CONFÉRENCIER",
+    "subtitle": "FONDATEUR ISELLA GROUP & BERGHAUS, CO-FONDATEUR BECZ"
   },
   "mission": {
-    "title_before": "Vous aider a atteindre",
-    "title_bold": "vos objectifs",
-    "title_after": "est ma mission.",
+    "title_before": "Ma mission est de vous permettre",
+    "title_bold": "d'atteindre vos objectifs.",
+    "title_after": "",
     "subtitle": "En tant que l'un des experts leaders en Tiny House en Allemagne et specialiste en marketing, vente et strategie d'entreprise augmentee par l'IA, j'aide les entreprises a travailler plus intelligemment, a se developper plus rapidement et a garder une longueur d'avance sur la concurrence."
   },
   "intro": {
     "title": "Faisons connaissance",
     "cards_headline": "Choisissez votre voie",
     "partnership": "Partenariat commercial",
-    "adviser": "Conseiller d'affaires"
+    "adviser": "Conseiller d'affaires",
+    "video_id": "S5a-l5gF4BM"
   },
   "partnership": {
     "title": "Partenariat commercial",
     "subtitle": "Faconnons l'avenir ensemble",
     "description": "Travaillez avec Dennis Czekalla en tant qu'investisseur ou partenaire commercial. Decouvrez les opportunites qui s'offrent a vous et laissez un message.",
-    "cta": "Laisser un message"
+    "cta": "Prendre rendez-vous"
   },
   "adviser": {
     "title": "Conseiller d'affaires",
     "subtitle": "Marketing, vente, strategie IA et entree sur le marche en Allemagne et en Pologne",
     "description": "Vous prevoyez d'entrer sur un nouveau marche ou souhaitez affiner votre strategie marketing et commerciale ? Combinez l'experience d'un expert confirme avec la puissance des analyses basees sur l'IA — et faites de votre entreprise en Europe un succes.",
-    "cta": "Prendre contact"
+    "cta": "Réserver une consultation gratuite"
   },
   "about": {
     "title": "A propos de moi",
-    "bio": "Dennis Czekalla est entrepreneur, conseiller et speaker international. En 2020, il a fonde l'Isella Group — une agence internationale pour les projets d'affaires innovants. A travers l'Isella Group, il a construit la marque Berghaus a partir de zero, etablissant l'un des principaux fabricants de tiny houses et maisons modulaires en Allemagne. Aujourd'hui, Berghaus exploite des installations de production et sert des clients en Allemagne, en Pologne et au-dela. Athlete d'endurance et triathlete, Dennis apporte la meme discipline et determination dans les affaires que dans le sport.",
+    "bio": "Dennis Czekalla est entrepreneur, consultant et conférencier international. En 2020, il a fondé l'Isella Group — une agence internationale spécialisée dans le développement stratégique de marques et l'entrée sur de nouveaux marchés. À travers l'Isella Group, il a construit la marque Berghaus de zéro et a établi l'un des principaux fabricants allemands de tiny houses et de maisons modulaires. Aujourd'hui, Berghaus exploite des sites de production et sert des clients en Allemagne, en Pologne et au-delà. Dennis a également fondé la marque Thrive avec son concept lifestyle associé, ainsi que les podcasts Thrive Talk et Hausgemacht. Avec Christopher Beye, il a cofondé BECZ, le podcast Tri2Thrive ainsi que le podcast sur l'intelligence artificielle ThrAIve. En tant que finisher Ironman et triathlète passionné, Dennis apporte la même discipline et la même détermination dans les affaires que dans le sport.",
     "companies": "4+",
     "companiesLabel": "Entreprises fondees",
     "countries": "3",
@@ -50,7 +51,7 @@
   },
   "brands": {
     "title": "Fondateur & CEO",
-    "berghaus": "Modular & Tiny Houses",
+    "berghaus": "Maisons modulaires et tiny houses",
     "isella": "Agence internationale pour projets d'affaires innovants",
     "tri2thrive": "Triathlon & style de vie d'endurance",
     "becz": "Automatisation IA & conseil"

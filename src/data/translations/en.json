@@ -10,7 +10,7 @@
     "entrepreneur": "ENTREPRENEUR",
     "adviser": "ADVISER",
     "speaker": "SPEAKER",
-    "subtitle": "FOUNDER & CEO OF ISELLA GROUP, FOUNDER OF THE BERGHAUS BRAND"
+    "subtitle": "FOUNDER ISELLA GROUP & BERGHAUS, CO-FOUNDER BECZ"
   },
   "mission": {
     "title_before": "Making you achieve",
@@ -22,23 +22,24 @@
     "title": "Let's Get to Know Each Other",
     "cards_headline": "Choose your path",
     "partnership": "Business Partnership",
-    "adviser": "Business Adviser"
+    "adviser": "Business Adviser",
+    "video_id": "S5a-l5gF4BM"
   },
   "partnership": {
     "title": "Business Partnership",
     "subtitle": "Shaping the Future Together",
     "description": "Work together with Dennis Czekalla as an investor or business partner. Get to know which opportunities you have and leave a message.",
-    "cta": "Leave a Message"
+    "cta": "Book an Appointment"
   },
   "adviser": {
     "title": "Business Adviser",
     "subtitle": "Marketing, Sales, AI Strategy and Market-Entry in Germany and Poland",
     "description": "Are you planning to enter a new market or looking to sharpen your marketing and sales strategy? Combine the experience of a proven expert with the power of AI-driven insights — and make your business in Europe a success.",
-    "cta": "Get in Touch"
+    "cta": "Book a Free Consultation"
   },
   "about": {
     "title": "About Me",
-    "bio": "Dennis Czekalla is an entrepreneur, adviser, and international speaker. In 2020, he founded the Isella Group — an international agency for innovative business projects. Through Isella Group, he built the Berghaus brand from scratch, establishing one of Germany's leading tiny house and modular housing manufacturers. Today, Berghaus operates production facilities and serves customers across Germany, Poland, and beyond. An endurance athlete and triathlete, Dennis brings the same discipline and determination to business as he does to sport.",
+    "bio": "Dennis Czekalla is an entrepreneur, consultant and international speaker. In 2020, he founded the Isella Group — an international agency for strategic brand development and market entry. Through the Isella Group, he built the Berghaus brand from the ground up and established one of Germany's leading tiny and modular house manufacturers. Today, Berghaus operates production facilities and serves clients in Germany, Poland and beyond. Dennis also founded the Thrive brand with its accompanying lifestyle concept, as well as the podcasts Thrive Talk and Hausgemacht. Together with Christopher Beye, he co-founded BECZ, the podcast Tri2Thrive and the AI podcast ThrAIve. As an Ironman finisher and passionate triathlete, Dennis brings the same discipline and determination to business as he does to sport.",
     "companies": "4+",
     "companiesLabel": "Companies Founded",
     "countries": "3",

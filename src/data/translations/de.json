@@ -7,38 +7,39 @@
     "impressum": "Impressum"
   },
   "hero": {
-    "entrepreneur": "ENTREPRENEUR",
+    "entrepreneur": "UNTERNEHMER",
     "adviser": "BERATER",
-    "speaker": "SPEAKER",
-    "subtitle": "GRÜNDER & CEO DER ISELLA GROUP, GRÜNDER DER MARKE BERGHAUS"
+    "speaker": "REDNER",
+    "subtitle": "GRÜNDER ISELLA GROUP & BERGHAUS, MITGRÜNDER BECZ"
   },
   "mission": {
-    "title_before": "Dich",
-    "title_bold": "deine Ziele",
-    "title_after": "erreichen zu lassen, ist meine Mission.",
+    "title_before": "Dein",
+    "title_bold": "Erfolg",
+    "title_after": "ist meine Mission.",
     "subtitle": "Als einer der führenden Tiny House Experten Deutschlands und Spezialist für Marketing, Vertrieb und KI-gestützte Geschäftsstrategie helfe ich Unternehmen, intelligenter zu arbeiten, schneller zu skalieren und der Konkurrenz voraus zu sein."
   },
   "intro": {
     "title": "Lass uns einander kennenlernen!",
     "cards_headline": "Wähle deinen Weg",
     "partnership": "Geschäftspartnerschaft",
-    "adviser": "Unternehmensberater"
+    "adviser": "Unternehmensberater",
+    "video_id": "S5a-l5gF4BM"
   },
   "partnership": {
     "title": "Geschäftspartnerschaft",
     "subtitle": "Gemeinsam Zukunft gestalten",
     "description": "Arbeite als Investor oder Business Partner mit Dennis Czekalla zusammen. Schaue hier welche Möglichkeiten es gibt.",
-    "cta": "Hinterlasse eine Nachricht"
+    "cta": "Termin vereinbaren"
   },
   "adviser": {
     "title": "Unternehmensberater",
     "subtitle": "Marketing, Vertrieb, KI-Strategie und Markteintritt in Deutschland und Polen",
     "description": "Du planst den Eintritt in einen neuen Markt oder möchtest deine Marketing- und Vertriebsstrategie schärfen? Kombiniere die Erfahrung eines bewährten Experten mit der Kraft KI-gestützter Erkenntnisse — und mache dein Business in Europa zum Erfolg.",
-    "cta": "Kontakt aufnehmen"
+    "cta": "Kostenlosen Beratungstermin buchen"
   },
   "about": {
     "title": "Über mich",
-    "bio": "Dennis Czekalla ist Unternehmer, Berater und internationaler Speaker. 2020 gründete er die Isella Group — eine internationale Agentur für innovative Geschäftsprojekte. Über die Isella Group baute er die Marke Berghaus von Grund auf auf und etablierte einen der führenden Tiny House und Modulhaus-Hersteller Deutschlands. Heute betreibt Berghaus Produktionsstätten und bedient Kunden in Deutschland, Polen und darüber hinaus. Als Ausdauersportler und Triathlet bringt Dennis die gleiche Disziplin und Entschlossenheit ins Geschäft wie in den Sport.",
+    "bio": "Dennis Czekalla ist Unternehmer, Berater und internationaler Speaker. 2020 gründete er die Isella Group — eine internationale Agentur für strategische Markenentwicklung und Market-Entry. Über die Isella Group baute er die Marke Berghaus von Grund auf auf und etablierte einen der führenden Tiny House- und Modulhaus-Hersteller Deutschlands. Heute betreibt Berghaus Produktionsstätten und bedient Kunden in Deutschland, Polen und darüber hinaus. Darüber hinaus gründete Dennis die Marke Thrive mit dem dazugehörigen Lifestyle-Konzept sowie die Podcasts Thrive Talk und Hausgemacht. Gemeinsam mit Christopher Beye gründete er BECZ, den Podcast Tri2Thrive sowie den AI-Podcast ThrAIve. Als Ironman-Finisher und leidenschaftlicher Triathlet bringt Dennis die gleiche Disziplin und Entschlossenheit ins Geschäft wie in den Sport.",
     "companies": "4+",
     "companiesLabel": "Gegründete Unternehmen",
     "countries": "3",
@@ -50,7 +51,7 @@
   },
   "brands": {
     "title": "Gründer & CEO",
-    "berghaus": "Modular & Tiny Houses",
+    "berghaus": "Tiny- und Modulhäuser",
     "isella": "Internationale Agentur für innovative Geschäftsprojekte",
     "tri2thrive": "Triathlon & Ausdauer-Lifestyle",
     "becz": "KI-Automatisierung & Beratung"

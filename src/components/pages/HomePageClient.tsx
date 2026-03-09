@@ -47,12 +47,7 @@ const brands = [
 
 /* ─── Video IDs ──────────────────────────────────────────────── */
 const videoIds = [
-  'S5a-l5gF4BM',
   'Z4LgCqg1WNM',
-  '3v1HcQJZ-Ec',
-  'Nm76gxutgs8',
-  'Gj04oW0ODdk',
-  'e03Aw7oXMcI',
   '2UoB0wgb0Xs',
   'Dc83SNX8IGc',
   'mshWIKC9IcI',
@@ -272,7 +267,7 @@ export default function HomePageClient() {
       {/* ── 2. Mission Section — Parallax banner ─────────────── */}
       <section
         id="mission"
-        className="relative min-h-[80vh] flex items-center bg-fixed bg-cover bg-center"
+        className="relative min-h-[80vh] flex items-center bg-fixed bg-cover bg-[center_15%]"
         style={{ backgroundImage: 'url(/images/BanerDennisMisja.jpg)' }}
       >
         {/* Dark overlay */}
@@ -330,7 +325,7 @@ export default function HomePageClient() {
             <div className="relative w-full pb-[56.25%] overflow-hidden">
               {hasConsent('thirdParty') ? (
                 <iframe
-                  src="https://www.youtube-nocookie.com/embed/S5a-l5gF4BM"
+                  src={`https://www.youtube-nocookie.com/embed/${t('intro.video_id')}`}
                   title="Introduction Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -555,49 +550,7 @@ export default function HomePageClient() {
       {/* ── 8. Testimonials — "The Stage" ── */}
       <TestimonialsStage t={t} testimonialCount={testimonialCount} />
 
-      {/* ── 9. Events — DARK bg, minimal ─────────────────────── */}
-      <section id="events" className="bg-[#111111] py-24 md:py-32">
-        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            {t('events.title')}
-          </h2>
-          <p className="mt-4 text-white/50 text-lg">
-            {t('events.subtitle')}
-          </p>
-
-          {/* Placeholder — dark, flat, no shadow */}
-          <div className="mt-14 bg-[#1a1a1a] border border-white/10 p-14 max-w-2xl mx-auto">
-            <Calendar size={48} className="text-[#F4C857] mx-auto mb-6" />
-            <p className="text-white/60 text-lg">
-              {t('events.coming_soon')}
-            </p>
-
-            {/* Social Links */}
-            <div className="flex items-center justify-center gap-6 mt-8">
-              <a
-                href="https://www.linkedin.com/in/czekalla/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/40 hover:text-[#F4C857] transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={24} />
-              </a>
-              <a
-                href="https://instagram.com/dennis.czekalla"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/40 hover:text-[#F4C857] transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram size={24} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 10. Video & Podcast Grid — BLACK bg ──────────────── */}
+      {/* ── 9. Video & Podcast Grid — BLACK bg ──────────────── */}
       <section className="bg-black py-24 md:py-32">
         <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-14">
@@ -605,7 +558,7 @@ export default function HomePageClient() {
           </h2>
 
           {/* Video Grid — no rounded corners, no shadow */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {videoIds.map((id) => (
               <div
                 key={id}
@@ -850,6 +803,48 @@ export default function HomePageClient() {
             <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent hidden lg:block" />
             {/* Bottom gradient for mobile */}
             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black to-transparent lg:hidden" />
+          </div>
+        </div>
+      </section>
+
+      {/* ── 11. Events — DARK bg, minimal ─────────────────────── */}
+      <section id="events" className="bg-[#111111] py-24 md:py-32">
+        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+            {t('events.title')}
+          </h2>
+          <p className="mt-4 text-white/50 text-lg">
+            {t('events.subtitle')}
+          </p>
+
+          {/* Placeholder — dark, flat, no shadow */}
+          <div className="mt-14 bg-[#1a1a1a] border border-white/10 p-14 max-w-2xl mx-auto">
+            <Calendar size={48} className="text-[#F4C857] mx-auto mb-6" />
+            <p className="text-white/60 text-lg">
+              {t('events.coming_soon')}
+            </p>
+
+            {/* Social Links */}
+            <div className="flex items-center justify-center gap-6 mt-8">
+              <a
+                href="https://www.linkedin.com/in/czekalla/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/40 hover:text-[#F4C857] transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={24} />
+              </a>
+              <a
+                href="https://instagram.com/dennis.czekalla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/40 hover:text-[#F4C857] transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={24} />
+              </a>
+            </div>
           </div>
         </div>
       </section>

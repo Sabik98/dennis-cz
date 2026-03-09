@@ -8,37 +8,38 @@
   },
   "hero": {
     "entrepreneur": "PRZEDSIĘBIORCA",
-    "adviser": "DORADCA",
-    "speaker": "PRELEGENT",
-    "subtitle": "ZAŁOŻYCIEL I CEO ISELLA GROUP, ZAŁOŻYCIEL MARKI BERGHAUS"
+    "adviser": "TRENER & DORADCA",
+    "speaker": "MÓWCA",
+    "subtitle": "ZAŁOŻYCIEL ISELLA GROUP & BERGHAUS, WSPÓŁZAŁOŻYCIEL BECZ"
   },
   "mission": {
-    "title_before": "Pomóc Ci osiągnąć",
-    "title_bold": "Twoje cele",
-    "title_after": "— to moja misja.",
+    "title_before": "Twój",
+    "title_bold": "sukces",
+    "title_after": "jest moją misją.",
     "subtitle": "Jako jeden z wiodących ekspertów Tiny House w Niemczech i specjalista ds. marketingu, sprzedaży i strategii biznesowej opartej na AI, pomagam firmom pracować mądrzej, skalować szybciej i wyprzedzać konkurencję."
   },
   "intro": {
     "title": "Poznajmy się",
     "cards_headline": "Wybierz swoją ścieżkę",
     "partnership": "Partnerstwo biznesowe",
-    "adviser": "Doradca biznesowy"
+    "adviser": "Doradca biznesowy",
+    "video_id": "S5a-l5gF4BM"
   },
   "partnership": {
     "title": "Partnerstwo biznesowe",
     "subtitle": "Kształtujmy przyszłość razem",
     "description": "Współpracuj z Dennisem Czekallą jako inwestor lub partner biznesowy. Poznaj możliwości i zostaw wiadomość.",
-    "cta": "Zostaw wiadomość"
+    "cta": "Umów spotkanie"
   },
   "adviser": {
     "title": "Doradca biznesowy",
     "subtitle": "Marketing, sprzedaż, strategia AI i wejście na rynek w Niemczech i Polsce",
     "description": "Planujesz wejść na nowy rynek lub chcesz usprawnić swoją strategię marketingową i sprzedażową? Połącz doświadczenie sprawdzonego eksperta z mocą analiz opartych na AI — i odnieś sukces ze swoim biznesem w Europie.",
-    "cta": "Skontaktuj się"
+    "cta": "Zarezerwuj bezpłatną konsultację"
   },
   "about": {
     "title": "O mnie",
-    "bio": "Dennis Czekalla jest przedsiębiorcą, doradcą i międzynarodowym mówcą. W 2020 roku założył Isella Group — międzynarodową agencję innowacyjnych projektów biznesowych. Poprzez Isella Group zbudował markę Berghaus od podstaw, tworząc jednego z czołowych producentów tiny house i domów modułowych w Niemczech. Dziś Berghaus prowadzi zakłady produkcyjne i obsługuje klientów w Niemczech, Polsce i poza granicami. Jako sportowiec wytrzymałościowy i triatlonista Dennis wnosi tę samą dyscyplinę i determinację do biznesu, co do sportu.",
+    "bio": "Dennis Czekalla jest przedsiębiorcą, doradcą i międzynarodowym prelegentem. W 2020 roku założył Isella Group — międzynarodową agencję zajmującą się strategicznym rozwojem marek i wchodzeniem na nowe rynki. Za pośrednictwem Isella Group zbudował od podstaw markę Berghaus i stworzył jednego z wiodących niemieckich producentów domów modułowych i typu tiny house. Dziś Berghaus prowadzi zakłady produkcyjne i obsługuje klientów w Niemczech, Polsce i nie tylko. Dennis założył również markę Thrive wraz z towarzyszącą jej koncepcją stylu życia oraz podcasty Thrive Talk i Hausgemacht. Wspólnie z Christopherem Beye założył BECZ, podcast Tri2Thrive oraz podcast o sztucznej inteligencji ThrAIve. Jako finisher Ironmana i pasjonat triathlonu Dennis wnosi do biznesu tę samą dyscyplinę i determinację, co do sportu.",
     "companies": "4+",
     "companiesLabel": "Założonych firm",
     "countries": "3",
@@ -50,7 +51,7 @@
   },
   "brands": {
     "title": "Założyciel i CEO",
-    "berghaus": "Modular & Tiny Houses",
+    "berghaus": "Domy modułowe & holenderskie",
     "isella": "Międzynarodowa agencja innowacyjnych projektów biznesowych",
     "tri2thrive": "Triathlon i styl życia wytrzymałościowy",
     "becz": "Automatyzacja AI i doradztwo"
